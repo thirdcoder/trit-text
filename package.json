@@ -1,6 +1,6 @@
 {
   "name": "trit-text",
-  "description": "get and set trits, base 3 digits",
+  "description": "a 5-trit text coding",
   "version": "0.0.1",
   "main": "text.js",
   "repository": {
