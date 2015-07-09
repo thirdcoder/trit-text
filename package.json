@@ -1,0 +1,24 @@
+{
+  "name": "trit-text",
+  "description": "get and set trits, base 3 digits",
+  "version": "0.0.1",
+  "main": "text.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:/trit-text.git"
+  },
+  "keywords": [
+    "ternary",
+    "base3",
+    "trits",
+    "text",
+    "unicode"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.0.0"
+  }
+}
