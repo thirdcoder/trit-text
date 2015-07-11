@@ -45,7 +45,7 @@ left punctuation                                        right punctuation
 0110i = 35  #                                           1010i = 89  $
 01100 = 36  %                                           10100 = 90  &
 01101 = 37  -                                           10101 = 91  +
-0111i = 38  *                                           1011i = 92  ÷ U+00F7 division
+0111i = 38  *                                           1011i = 92  |
 01110 = 39  =                                           10110 = 93  ≈ U+2248 approximately equal
 01111 = 40  ^                                           10111 = 94  ~
                                                             
