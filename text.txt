@@ -36,7 +36,7 @@ left punctuation                                        right punctuation
 0100i = 26  (                                           1000i = 80  )                                              
 01000 = 27  [                                           10000 = 81  ]
 01001 = 28  <                                           10001 = 82  >
-0101i = 29  ≤ U+2264 less-than-or-equal (option-,)      1001i = 83  ≥ U+2265 greater-than-or-equal (option-.)
+0101i = 29  {                                           1001i = 83  }
 01010 = 30  \                                           10010 = 84  /
 01011 = 31  .                                           10011 = 85  ,
 011ii = 32  ;                                           101ii = 86  :
