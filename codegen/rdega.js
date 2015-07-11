@@ -58,7 +58,7 @@ require('get-pixels')('ega9x14.png', function(err, pixels) {
             throw new Error('unexpected color: '+pixel+' at '+x+','+y);
           }
         }
-        s+="'";
+        s+="\\n'";
         s+=(j==13)?',':'+'
         s+="\n";
       }
