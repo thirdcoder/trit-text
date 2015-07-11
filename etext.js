@@ -65,10 +65,11 @@ function fromEvent(ev) {
 
   var varChars = _keymap[vkeyChar];
   if (!varChars) return null;
-  var c = varChars[flags];
 
-  if (flags === 2 && c === '') c = varChars[0]; // no control variant, use normal
-  if (flags === 3 && c === '') c = varChars[1]; // no shift-control variant, use shift TODO: hmm
+  if (varChars[flags] === '' && flags === 3) flags = 2; // no shift-control variant, try control
+  if (varChars[flags] === '' && flags === 2) flags = 0; // no control variant, try normal
+
+  var c = varChars[flags];
 
   var tt = fromUnicode(c);
   if (tt == null) return null;
