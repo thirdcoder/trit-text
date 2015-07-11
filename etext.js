@@ -1,10 +1,11 @@
 'use strict';
 
-var OPT = require('./optkeys');
+var vkey = require('vkey');
 var fromUnicode = require('./utext').fromUnicode;
 
 // option-keys to press for shortcuts
 var _sc = {};
+if(0){//TODO
 _sc[OPT.A] = '☺'; _sc[OPT.B] = '☻';
 _sc[OPT.C] = '♥'; _sc[OPT.D] = '♦';
 /*_sc[OPT.E] = '♣'*/; _sc[OPT.F] = '♠';
@@ -16,14 +17,18 @@ _sc[OPT.O] = '←'; _sc[OPT.P] = '→';
 _sc[OPT.Q] = '↑'; _sc[OPT.R] = '↓';
 _sc[OPT.S] = '◄'; _sc[OPT.T] = '►';
 /*_sc[OPT.U] = '▲';*/ _sc[OPT.V] = '▼';
+}
 
 function fromEvent(ev) {
-  // TODO: use only keyCode, keydown event instead of keypress?
-  if (ev.keyCode === 13) { // ASCII carriage return, enter/newline
+  var c = vkey[ev.keyCode];
+
+  if (c === '<enter>') {
     return 12; // trit-text newline
   }
 
-  var c = String.fromCharCode(ev.charCode);
+  if (!ev.shiftKey) {
+    c = c.toLowerCase();
+  };
 
   if (_sc[c] !== undefined) {
     c = _sc[c];
