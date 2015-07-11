@@ -1,6 +1,7 @@
 'use strict';
 
 var _vtext = require('./vtext');
+var fromEvent = require('./etext');
 
 /*
 5-trit text format, analogous to 7-bit ASCII
@@ -191,6 +192,7 @@ module.exports = {
   toUnicode: toUnicode,
   isInverted: isInverted,
   fromUnicode: fromUnicode,
+  fromEvent: fromEvent,
   allUnicode: _chars,
   toTritmap9x14: toTritmap,
 };
