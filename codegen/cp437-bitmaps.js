@@ -1,6 +1,5 @@
 module.exports={
-// U+0000 NULL (CP437-0)
-NULL:
+'\u0000': // NULL
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -16,8 +15,7 @@ NULL:
 '.........\n'+
 '.........\n',
 
-// U+263A WHITE SMILING FACE (CP437-1)
-WHITE_SMILING_FACE:
+'☺': // U+263A WHITE SMILING FACE
 '.........\n'+
 '.........\n'+
 '.******..\n'+
@@ -33,8 +31,7 @@ WHITE_SMILING_FACE:
 '.........\n'+
 '.........\n',
 
-// U+263B BLACK SMILING FACE (CP437-2)
-BLACK_SMILING_FACE:
+'☻': // U+263B BLACK SMILING FACE
 '.........\n'+
 '.........\n'+
 '.******..\n'+
@@ -50,8 +47,7 @@ BLACK_SMILING_FACE:
 '.........\n'+
 '.........\n',
 
-// U+2665 BLACK HEART SUIT (CP437-3)
-BLACK_HEART_SUIT:
+'♥': // U+2665 BLACK HEART SUIT
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -67,8 +63,7 @@ BLACK_HEART_SUIT:
 '.........\n'+
 '.........\n',
 
-// U+2666 BLACK DIAMOND SUIT (CP437-4)
-BLACK_DIAMOND_SUIT:
+'♦': // U+2666 BLACK DIAMOND SUIT
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -84,8 +79,7 @@ BLACK_DIAMOND_SUIT:
 '.........\n'+
 '.........\n',
 
-// U+2663 BLACK CLUB SUIT (CP437-5)
-BLACK_CLUB_SUIT:
+'♣': // U+2663 BLACK CLUB SUIT
 '.........\n'+
 '.........\n'+
 '...**....\n'+
@@ -101,8 +95,7 @@ BLACK_CLUB_SUIT:
 '.........\n'+
 '.........\n',
 
-// U+2660 BLACK SPADE SUIT (CP437-6)
-BLACK_SPADE_SUIT:
+'♠': // U+2660 BLACK SPADE SUIT
 '.........\n'+
 '.........\n'+
 '...**....\n'+
@@ -118,8 +111,7 @@ BLACK_SPADE_SUIT:
 '.........\n'+
 '.........\n',
 
-// U+2022 BULLET (CP437-7)
-BULLET:
+'•': // U+2022 BULLET
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -135,8 +127,7 @@ BULLET:
 '.........\n'+
 '.........\n',
 
-// U+25D8 INVERSE BULLET (CP437-8)
-INVERSE_BULLET:
+'◘': // U+25D8 INVERSE BULLET
 '********.\n'+
 '********.\n'+
 '********.\n'+
@@ -152,8 +143,7 @@ INVERSE_BULLET:
 '********.\n'+
 '********.\n',
 
-// U+25CB WHITE CIRCLE (CP437-9)
-WHITE_CIRCLE:
+'○': // U+25CB WHITE CIRCLE
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -169,8 +159,7 @@ WHITE_CIRCLE:
 '.........\n'+
 '.........\n',
 
-// U+25D9 INVERSE WHITE CIRCLE (CP437-10)
-INVERSE_WHITE_CIRCLE:
+'◙': // U+25D9 INVERSE WHITE CIRCLE
 '********.\n'+
 '********.\n'+
 '********.\n'+
@@ -186,8 +175,7 @@ INVERSE_WHITE_CIRCLE:
 '********.\n'+
 '********.\n',
 
-// U+2642 MALE SIGN (CP437-11)
-MALE_SIGN:
+'♂': // U+2642 MALE SIGN
 '.........\n'+
 '.........\n'+
 '...****..\n'+
@@ -203,8 +191,7 @@ MALE_SIGN:
 '.........\n'+
 '.........\n',
 
-// U+2640 FEMALE SIGN (CP437-12)
-FEMALE_SIGN:
+'♀': // U+2640 FEMALE SIGN
 '.........\n'+
 '.........\n'+
 '..****...\n'+
@@ -220,8 +207,7 @@ FEMALE_SIGN:
 '.........\n'+
 '.........\n',
 
-// U+266A EIGHTH NOTE (CP437-13)
-EIGHTH_NOTE:
+'♪': // U+266A EIGHTH NOTE
 '.........\n'+
 '.........\n'+
 '..******.\n'+
@@ -237,8 +223,7 @@ EIGHTH_NOTE:
 '.........\n'+
 '.........\n',
 
-// U+266B BEAMED EIGHTH NOTES (CP437-14)
-BEAMED_EIGHTH_NOTES:
+'♫': // U+266B BEAMED EIGHTH NOTES
 '.........\n'+
 '.........\n'+
 '.*******.\n'+
@@ -254,8 +239,7 @@ BEAMED_EIGHTH_NOTES:
 '.........\n'+
 '.........\n',
 
-// U+263C WHITE SUN WITH RAYS (CP437-15)
-WHITE_SUN_WITH_RAYS:
+'☼': // U+263C WHITE SUN WITH RAYS
 '.........\n'+
 '.........\n'+
 '...**....\n'+
@@ -271,8 +255,7 @@ WHITE_SUN_WITH_RAYS:
 '.........\n'+
 '.........\n',
 
-// U+25BA BLACK RIGHT-POINTING POINTER (CP437-16)
-BLACK_RIGHT_POINTING_POINTER:
+'►': // U+25BA BLACK RIGHT-POINTING POINTER
 '.........\n'+
 '.........\n'+
 '*........\n'+
@@ -288,8 +271,7 @@ BLACK_RIGHT_POINTING_POINTER:
 '.........\n'+
 '.........\n',
 
-// U+25C4 BLACK LEFT-POINTING POINTER (CP437-17)
-BLACK_LEFT_POINTING_POINTER:
+'◄': // U+25C4 BLACK LEFT-POINTING POINTER
 '.........\n'+
 '.........\n'+
 '......*..\n'+
@@ -305,8 +287,7 @@ BLACK_LEFT_POINTING_POINTER:
 '.........\n'+
 '.........\n',
 
-// U+2195 UP DOWN ARROW (CP437-18)
-UP_DOWN_ARROW:
+'↕': // U+2195 UP DOWN ARROW
 '.........\n'+
 '.........\n'+
 '...**....\n'+
@@ -322,8 +303,7 @@ UP_DOWN_ARROW:
 '.........\n'+
 '.........\n',
 
-// U+203C DOUBLE EXCLAMATION MARK (CP437-19)
-DOUBLE_EXCLAMATION_MARK:
+'‼': // U+203C DOUBLE EXCLAMATION MARK
 '.........\n'+
 '.........\n'+
 '.**..**..\n'+
@@ -339,8 +319,7 @@ DOUBLE_EXCLAMATION_MARK:
 '.........\n'+
 '.........\n',
 
-// U+00B6 PILCROW SIGN (CP437-20)
-PILCROW_SIGN:
+'¶': // U+00B6 PILCROW SIGN
 '.........\n'+
 '.........\n'+
 '.*******.\n'+
@@ -356,8 +335,7 @@ PILCROW_SIGN:
 '.........\n'+
 '.........\n',
 
-// U+00A7 SECTION SIGN (CP437-21)
-SECTION_SIGN:
+'§': // U+00A7 SECTION SIGN
 '.........\n'+
 '.*****...\n'+
 '**...**..\n'+
@@ -373,8 +351,7 @@ SECTION_SIGN:
 '.*****...\n'+
 '.........\n',
 
-// U+25AC BLACK RECTANGLE (CP437-22)
-BLACK_RECTANGLE:
+'▬': // U+25AC BLACK RECTANGLE
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -390,8 +367,7 @@ BLACK_RECTANGLE:
 '.........\n'+
 '.........\n',
 
-// U+21A8 UP DOWN ARROW WITH BASE (CP437-23)
-UP_DOWN_ARROW_WITH_BASE:
+'↨': // U+21A8 UP DOWN ARROW WITH BASE
 '.........\n'+
 '.........\n'+
 '...**....\n'+
@@ -407,8 +383,7 @@ UP_DOWN_ARROW_WITH_BASE:
 '.........\n'+
 '.........\n',
 
-// U+2191 UPWARDS ARROW (CP437-24)
-UPWARDS_ARROW:
+'↑': // U+2191 UPWARDS ARROW
 '.........\n'+
 '.........\n'+
 '...**....\n'+
@@ -424,8 +399,7 @@ UPWARDS_ARROW:
 '.........\n'+
 '.........\n',
 
-// U+2193 DOWNWARDS ARROW (CP437-25)
-DOWNWARDS_ARROW:
+'↓': // U+2193 DOWNWARDS ARROW
 '.........\n'+
 '.........\n'+
 '...**....\n'+
@@ -441,8 +415,7 @@ DOWNWARDS_ARROW:
 '.........\n'+
 '.........\n',
 
-// U+2192 RIGHTWARDS ARROW (CP437-26)
-RIGHTWARDS_ARROW:
+'→': // U+2192 RIGHTWARDS ARROW
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -458,8 +431,7 @@ RIGHTWARDS_ARROW:
 '.........\n'+
 '.........\n',
 
-// U+2190 LEFTWARDS ARROW (CP437-27)
-LEFTWARDS_ARROW:
+'←': // U+2190 LEFTWARDS ARROW
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -475,8 +447,7 @@ LEFTWARDS_ARROW:
 '.........\n'+
 '.........\n',
 
-// U+221F RIGHT ANGLE (CP437-28)
-RIGHT_ANGLE:
+'∟': // U+221F RIGHT ANGLE
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -492,8 +463,7 @@ RIGHT_ANGLE:
 '.........\n'+
 '.........\n',
 
-// U+2194 LEFT RIGHT ARROW (CP437-29)
-LEFT_RIGHT_ARROW:
+'↔': // U+2194 LEFT RIGHT ARROW
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -509,8 +479,7 @@ LEFT_RIGHT_ARROW:
 '.........\n'+
 '.........\n',
 
-// U+25B2 BLACK UP-POINTING TRIANGLE (CP437-30)
-BLACK_UP_POINTING_TRIANGLE:
+'▲': // U+25B2 BLACK UP-POINTING TRIANGLE
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -526,8 +495,7 @@ BLACK_UP_POINTING_TRIANGLE:
 '.........\n'+
 '.........\n',
 
-// U+25BC BLACK DOWN-POINTING TRIANGLE (CP437-31)
-BLACK_DOWN_POINTING_TRIANGLE:
+'▼': // U+25BC BLACK DOWN-POINTING TRIANGLE
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -543,8 +511,7 @@ BLACK_DOWN_POINTING_TRIANGLE:
 '.........\n'+
 '.........\n',
 
-// U+0020 SPACE (CP437-32)
-SPACE:
+' ': // U+0020 SPACE
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -560,8 +527,7 @@ SPACE:
 '.........\n'+
 '.........\n',
 
-// U+0021 EXCLAMATION MARK (CP437-33)
-EXCLAMATION_MARK:
+'!': // U+0021 EXCLAMATION MARK
 '.........\n'+
 '.........\n'+
 '...**....\n'+
@@ -577,8 +543,7 @@ EXCLAMATION_MARK:
 '.........\n'+
 '.........\n',
 
-// U+0022 QUOTATION MARK (CP437-34)
-QUOTATION_MARK:
+'"': // U+0022 QUOTATION MARK
 '.........\n'+
 '.**...**.\n'+
 '.**...**.\n'+
@@ -594,8 +559,7 @@ QUOTATION_MARK:
 '.........\n'+
 '.........\n',
 
-// U+0023 NUMBER SIGN (CP437-35)
-NUMBER_SIGN:
+'#': // U+0023 NUMBER SIGN
 '.........\n'+
 '.........\n'+
 '.**.**...\n'+
@@ -611,8 +575,7 @@ NUMBER_SIGN:
 '.........\n'+
 '.........\n',
 
-// U+0024 DOLLAR SIGN (CP437-36)
-DOLLAR_SIGN:
+'$': // U+0024 DOLLAR SIGN
 '...**....\n'+
 '...**....\n'+
 '.*****...\n'+
@@ -628,8 +591,7 @@ DOLLAR_SIGN:
 '...**....\n'+
 '.........\n',
 
-// U+0025 PERCENT SIGN (CP437-37)
-PERCENT_SIGN:
+'%': // U+0025 PERCENT SIGN
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -645,8 +607,7 @@ PERCENT_SIGN:
 '.........\n'+
 '.........\n',
 
-// U+0026 AMPERSAND (CP437-38)
-AMPERSAND:
+'&': // U+0026 AMPERSAND
 '.........\n'+
 '.........\n'+
 '..***....\n'+
@@ -662,8 +623,7 @@ AMPERSAND:
 '.........\n'+
 '.........\n',
 
-// U+0027 APOSTROPHE (CP437-39)
-APOSTROPHE:
+'\'': // U+0027 APOSTROPHE
 '.........\n'+
 '..**.....\n'+
 '..**.....\n'+
@@ -679,8 +639,7 @@ APOSTROPHE:
 '.........\n'+
 '.........\n',
 
-// U+0028 LEFT PARENTHESIS (CP437-40)
-LEFT_PARENTHESIS:
+'(': // U+0028 LEFT PARENTHESIS
 '.........\n'+
 '.........\n'+
 '....**...\n'+
@@ -696,8 +655,7 @@ LEFT_PARENTHESIS:
 '.........\n'+
 '.........\n',
 
-// U+0029 RIGHT PARENTHESIS (CP437-41)
-RIGHT_PARENTHESIS:
+')': // U+0029 RIGHT PARENTHESIS
 '.........\n'+
 '.........\n'+
 '..**.....\n'+
@@ -713,8 +671,7 @@ RIGHT_PARENTHESIS:
 '.........\n'+
 '.........\n',
 
-// U+002A ASTERISK (CP437-42)
-ASTERISK:
+'*': // U+002A ASTERISK
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -730,8 +687,7 @@ ASTERISK:
 '.........\n'+
 '.........\n',
 
-// U+002B PLUS SIGN (CP437-43)
-PLUS_SIGN:
+'+': // U+002B PLUS SIGN
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -747,8 +703,7 @@ PLUS_SIGN:
 '.........\n'+
 '.........\n',
 
-// U+002C COMMA (CP437-44)
-COMMA:
+',': // U+002C COMMA
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -764,8 +719,7 @@ COMMA:
 '.........\n'+
 '.........\n',
 
-// U+002D HYPHEN-MINUS (CP437-45)
-HYPHEN_MINUS:
+'-': // U+002D HYPHEN-MINUS
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -781,8 +735,7 @@ HYPHEN_MINUS:
 '.........\n'+
 '.........\n',
 
-// U+002E FULL STOP (CP437-46)
-FULL_STOP:
+'.': // U+002E FULL STOP
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -798,8 +751,7 @@ FULL_STOP:
 '.........\n'+
 '.........\n',
 
-// U+002F SOLIDUS (CP437-47)
-SOLIDUS:
+'/': // U+002F SOLIDUS
 '.........\n'+
 '.........\n'+
 '......*..\n'+
@@ -815,8 +767,7 @@ SOLIDUS:
 '.........\n'+
 '.........\n',
 
-// U+0030 DIGIT ZERO (CP437-48)
-DIGIT_ZERO:
+'0': // U+0030 DIGIT ZERO
 '.........\n'+
 '.........\n'+
 '.*****...\n'+
@@ -832,8 +783,7 @@ DIGIT_ZERO:
 '.........\n'+
 '.........\n',
 
-// U+0031 DIGIT ONE (CP437-49)
-DIGIT_ONE:
+'1': // U+0031 DIGIT ONE
 '.........\n'+
 '.........\n'+
 '...**....\n'+
@@ -849,8 +799,7 @@ DIGIT_ONE:
 '.........\n'+
 '.........\n',
 
-// U+0032 DIGIT TWO (CP437-50)
-DIGIT_TWO:
+'2': // U+0032 DIGIT TWO
 '.........\n'+
 '.........\n'+
 '.*****...\n'+
@@ -866,8 +815,7 @@ DIGIT_TWO:
 '.........\n'+
 '.........\n',
 
-// U+0033 DIGIT THREE (CP437-51)
-DIGIT_THREE:
+'3': // U+0033 DIGIT THREE
 '.........\n'+
 '.........\n'+
 '.*****...\n'+
@@ -883,8 +831,7 @@ DIGIT_THREE:
 '.........\n'+
 '.........\n',
 
-// U+0034 DIGIT FOUR (CP437-52)
-DIGIT_FOUR:
+'4': // U+0034 DIGIT FOUR
 '.........\n'+
 '.........\n'+
 '....**...\n'+
@@ -900,8 +847,7 @@ DIGIT_FOUR:
 '.........\n'+
 '.........\n',
 
-// U+0035 DIGIT FIVE (CP437-53)
-DIGIT_FIVE:
+'5': // U+0035 DIGIT FIVE
 '.........\n'+
 '.........\n'+
 '*******..\n'+
@@ -917,8 +863,7 @@ DIGIT_FIVE:
 '.........\n'+
 '.........\n',
 
-// U+0036 DIGIT SIX (CP437-54)
-DIGIT_SIX:
+'6': // U+0036 DIGIT SIX
 '.........\n'+
 '.........\n'+
 '..***....\n'+
@@ -934,8 +879,7 @@ DIGIT_SIX:
 '.........\n'+
 '.........\n',
 
-// U+0037 DIGIT SEVEN (CP437-55)
-DIGIT_SEVEN:
+'7': // U+0037 DIGIT SEVEN
 '.........\n'+
 '.........\n'+
 '*******..\n'+
@@ -951,8 +895,7 @@ DIGIT_SEVEN:
 '.........\n'+
 '.........\n',
 
-// U+0038 DIGIT EIGHT (CP437-56)
-DIGIT_EIGHT:
+'8': // U+0038 DIGIT EIGHT
 '.........\n'+
 '.........\n'+
 '.*****...\n'+
@@ -968,8 +911,7 @@ DIGIT_EIGHT:
 '.........\n'+
 '.........\n',
 
-// U+0039 DIGIT NINE (CP437-57)
-DIGIT_NINE:
+'9': // U+0039 DIGIT NINE
 '.........\n'+
 '.........\n'+
 '.*****...\n'+
@@ -985,8 +927,7 @@ DIGIT_NINE:
 '.........\n'+
 '.........\n',
 
-// U+003A COLON (CP437-58)
-COLON:
+':': // U+003A COLON
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -1002,8 +943,7 @@ COLON:
 '.........\n'+
 '.........\n',
 
-// U+003B SEMICOLON (CP437-59)
-SEMICOLON:
+';': // U+003B SEMICOLON
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -1019,8 +959,7 @@ SEMICOLON:
 '.........\n'+
 '.........\n',
 
-// U+003C LESS-THAN SIGN (CP437-60)
-LESS_THAN_SIGN:
+'<': // U+003C LESS-THAN SIGN
 '.........\n'+
 '.........\n'+
 '.....**..\n'+
@@ -1036,8 +975,7 @@ LESS_THAN_SIGN:
 '.........\n'+
 '.........\n',
 
-// U+003D EQUALS SIGN (CP437-61)
-EQUALS_SIGN:
+'=': // U+003D EQUALS SIGN
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -1053,8 +991,7 @@ EQUALS_SIGN:
 '.........\n'+
 '.........\n',
 
-// U+003E GREATER-THAN SIGN (CP437-62)
-GREATER_THAN_SIGN:
+'>': // U+003E GREATER-THAN SIGN
 '.........\n'+
 '.........\n'+
 '.**......\n'+
@@ -1070,8 +1007,7 @@ GREATER_THAN_SIGN:
 '.........\n'+
 '.........\n',
 
-// U+003F QUESTION MARK (CP437-63)
-QUESTION_MARK:
+'?': // U+003F QUESTION MARK
 '.........\n'+
 '.........\n'+
 '.*****...\n'+
@@ -1087,8 +1023,7 @@ QUESTION_MARK:
 '.........\n'+
 '.........\n',
 
-// U+0040 COMMERCIAL AT (CP437-64)
-COMMERCIAL_AT:
+'@': // U+0040 COMMERCIAL AT
 '.........\n'+
 '.........\n'+
 '.*****...\n'+
@@ -1104,8 +1039,7 @@ COMMERCIAL_AT:
 '.........\n'+
 '.........\n',
 
-// U+0041 LATIN CAPITAL LETTER A (CP437-65)
-LATIN_CAPITAL_LETTER_A:
+'A': // U+0041 LATIN CAPITAL LETTER A
 '.........\n'+
 '.........\n'+
 '...*.....\n'+
@@ -1121,8 +1055,7 @@ LATIN_CAPITAL_LETTER_A:
 '.........\n'+
 '.........\n',
 
-// U+0042 LATIN CAPITAL LETTER B (CP437-66)
-LATIN_CAPITAL_LETTER_B:
+'B': // U+0042 LATIN CAPITAL LETTER B
 '.........\n'+
 '.........\n'+
 '******...\n'+
@@ -1138,8 +1071,7 @@ LATIN_CAPITAL_LETTER_B:
 '.........\n'+
 '.........\n',
 
-// U+0043 LATIN CAPITAL LETTER C (CP437-67)
-LATIN_CAPITAL_LETTER_C:
+'C': // U+0043 LATIN CAPITAL LETTER C
 '.........\n'+
 '.........\n'+
 '..****...\n'+
@@ -1155,8 +1087,7 @@ LATIN_CAPITAL_LETTER_C:
 '.........\n'+
 '.........\n',
 
-// U+0044 LATIN CAPITAL LETTER D (CP437-68)
-LATIN_CAPITAL_LETTER_D:
+'D': // U+0044 LATIN CAPITAL LETTER D
 '.........\n'+
 '.........\n'+
 '*****....\n'+
@@ -1172,8 +1103,7 @@ LATIN_CAPITAL_LETTER_D:
 '.........\n'+
 '.........\n',
 
-// U+0045 LATIN CAPITAL LETTER E (CP437-69)
-LATIN_CAPITAL_LETTER_E:
+'E': // U+0045 LATIN CAPITAL LETTER E
 '.........\n'+
 '.........\n'+
 '*******..\n'+
@@ -1189,8 +1119,7 @@ LATIN_CAPITAL_LETTER_E:
 '.........\n'+
 '.........\n',
 
-// U+0046 LATIN CAPITAL LETTER F (CP437-70)
-LATIN_CAPITAL_LETTER_F:
+'F': // U+0046 LATIN CAPITAL LETTER F
 '.........\n'+
 '.........\n'+
 '*******..\n'+
@@ -1206,8 +1135,7 @@ LATIN_CAPITAL_LETTER_F:
 '.........\n'+
 '.........\n',
 
-// U+0047 LATIN CAPITAL LETTER G (CP437-71)
-LATIN_CAPITAL_LETTER_G:
+'G': // U+0047 LATIN CAPITAL LETTER G
 '.........\n'+
 '.........\n'+
 '..****...\n'+
@@ -1223,8 +1151,7 @@ LATIN_CAPITAL_LETTER_G:
 '.........\n'+
 '.........\n',
 
-// U+0048 LATIN CAPITAL LETTER H (CP437-72)
-LATIN_CAPITAL_LETTER_H:
+'H': // U+0048 LATIN CAPITAL LETTER H
 '.........\n'+
 '.........\n'+
 '**...**..\n'+
@@ -1240,8 +1167,7 @@ LATIN_CAPITAL_LETTER_H:
 '.........\n'+
 '.........\n',
 
-// U+0049 LATIN CAPITAL LETTER I (CP437-73)
-LATIN_CAPITAL_LETTER_I:
+'I': // U+0049 LATIN CAPITAL LETTER I
 '.........\n'+
 '.........\n'+
 '..****...\n'+
@@ -1257,8 +1183,7 @@ LATIN_CAPITAL_LETTER_I:
 '.........\n'+
 '.........\n',
 
-// U+004A LATIN CAPITAL LETTER J (CP437-74)
-LATIN_CAPITAL_LETTER_J:
+'J': // U+004A LATIN CAPITAL LETTER J
 '.........\n'+
 '.........\n'+
 '...****..\n'+
@@ -1274,8 +1199,7 @@ LATIN_CAPITAL_LETTER_J:
 '.........\n'+
 '.........\n',
 
-// U+004B LATIN CAPITAL LETTER K (CP437-75)
-LATIN_CAPITAL_LETTER_K:
+'K': // U+004B LATIN CAPITAL LETTER K
 '.........\n'+
 '.........\n'+
 '***..**..\n'+
@@ -1291,8 +1215,7 @@ LATIN_CAPITAL_LETTER_K:
 '.........\n'+
 '.........\n',
 
-// U+004C LATIN CAPITAL LETTER L (CP437-76)
-LATIN_CAPITAL_LETTER_L:
+'L': // U+004C LATIN CAPITAL LETTER L
 '.........\n'+
 '.........\n'+
 '****.....\n'+
@@ -1308,8 +1231,7 @@ LATIN_CAPITAL_LETTER_L:
 '.........\n'+
 '.........\n',
 
-// U+004D LATIN CAPITAL LETTER M (CP437-77)
-LATIN_CAPITAL_LETTER_M:
+'M': // U+004D LATIN CAPITAL LETTER M
 '.........\n'+
 '.........\n'+
 '**....**.\n'+
@@ -1325,8 +1247,7 @@ LATIN_CAPITAL_LETTER_M:
 '.........\n'+
 '.........\n',
 
-// U+004E LATIN CAPITAL LETTER N (CP437-78)
-LATIN_CAPITAL_LETTER_N:
+'N': // U+004E LATIN CAPITAL LETTER N
 '.........\n'+
 '.........\n'+
 '**...**..\n'+
@@ -1342,8 +1263,7 @@ LATIN_CAPITAL_LETTER_N:
 '.........\n'+
 '.........\n',
 
-// U+004F LATIN CAPITAL LETTER O (CP437-79)
-LATIN_CAPITAL_LETTER_O:
+'O': // U+004F LATIN CAPITAL LETTER O
 '.........\n'+
 '.........\n'+
 '..***....\n'+
@@ -1359,8 +1279,7 @@ LATIN_CAPITAL_LETTER_O:
 '.........\n'+
 '.........\n',
 
-// U+0050 LATIN CAPITAL LETTER P (CP437-80)
-LATIN_CAPITAL_LETTER_P:
+'P': // U+0050 LATIN CAPITAL LETTER P
 '.........\n'+
 '.........\n'+
 '******...\n'+
@@ -1376,8 +1295,7 @@ LATIN_CAPITAL_LETTER_P:
 '.........\n'+
 '.........\n',
 
-// U+0051 LATIN CAPITAL LETTER Q (CP437-81)
-LATIN_CAPITAL_LETTER_Q:
+'Q': // U+0051 LATIN CAPITAL LETTER Q
 '.........\n'+
 '.........\n'+
 '.*****...\n'+
@@ -1393,8 +1311,7 @@ LATIN_CAPITAL_LETTER_Q:
 '.........\n'+
 '.........\n',
 
-// U+0052 LATIN CAPITAL LETTER R (CP437-82)
-LATIN_CAPITAL_LETTER_R:
+'R': // U+0052 LATIN CAPITAL LETTER R
 '.........\n'+
 '.........\n'+
 '******...\n'+
@@ -1410,8 +1327,7 @@ LATIN_CAPITAL_LETTER_R:
 '.........\n'+
 '.........\n',
 
-// U+0053 LATIN CAPITAL LETTER S (CP437-83)
-LATIN_CAPITAL_LETTER_S:
+'S': // U+0053 LATIN CAPITAL LETTER S
 '.........\n'+
 '.........\n'+
 '.*****...\n'+
@@ -1427,8 +1343,7 @@ LATIN_CAPITAL_LETTER_S:
 '.........\n'+
 '.........\n',
 
-// U+0054 LATIN CAPITAL LETTER T (CP437-84)
-LATIN_CAPITAL_LETTER_T:
+'T': // U+0054 LATIN CAPITAL LETTER T
 '.........\n'+
 '.........\n'+
 '********.\n'+
@@ -1444,8 +1359,7 @@ LATIN_CAPITAL_LETTER_T:
 '.........\n'+
 '.........\n',
 
-// U+0055 LATIN CAPITAL LETTER U (CP437-85)
-LATIN_CAPITAL_LETTER_U:
+'U': // U+0055 LATIN CAPITAL LETTER U
 '.........\n'+
 '.........\n'+
 '**...**..\n'+
@@ -1461,8 +1375,7 @@ LATIN_CAPITAL_LETTER_U:
 '.........\n'+
 '.........\n',
 
-// U+0056 LATIN CAPITAL LETTER V (CP437-86)
-LATIN_CAPITAL_LETTER_V:
+'V': // U+0056 LATIN CAPITAL LETTER V
 '.........\n'+
 '.........\n'+
 '**....**.\n'+
@@ -1478,8 +1391,7 @@ LATIN_CAPITAL_LETTER_V:
 '.........\n'+
 '.........\n',
 
-// U+0057 LATIN CAPITAL LETTER W (CP437-87)
-LATIN_CAPITAL_LETTER_W:
+'W': // U+0057 LATIN CAPITAL LETTER W
 '.........\n'+
 '.........\n'+
 '**....**.\n'+
@@ -1495,8 +1407,7 @@ LATIN_CAPITAL_LETTER_W:
 '.........\n'+
 '.........\n',
 
-// U+0058 LATIN CAPITAL LETTER X (CP437-88)
-LATIN_CAPITAL_LETTER_X:
+'X': // U+0058 LATIN CAPITAL LETTER X
 '.........\n'+
 '.........\n'+
 '**....**.\n'+
@@ -1512,8 +1423,7 @@ LATIN_CAPITAL_LETTER_X:
 '.........\n'+
 '.........\n',
 
-// U+0059 LATIN CAPITAL LETTER Y (CP437-89)
-LATIN_CAPITAL_LETTER_Y:
+'Y': // U+0059 LATIN CAPITAL LETTER Y
 '.........\n'+
 '.........\n'+
 '**....**.\n'+
@@ -1529,8 +1439,7 @@ LATIN_CAPITAL_LETTER_Y:
 '.........\n'+
 '.........\n',
 
-// U+005A LATIN CAPITAL LETTER Z (CP437-90)
-LATIN_CAPITAL_LETTER_Z:
+'Z': // U+005A LATIN CAPITAL LETTER Z
 '.........\n'+
 '.........\n'+
 '********.\n'+
@@ -1546,8 +1455,7 @@ LATIN_CAPITAL_LETTER_Z:
 '.........\n'+
 '.........\n',
 
-// U+005B LEFT SQUARE BRACKET (CP437-91)
-LEFT_SQUARE_BRACKET:
+'[': // U+005B LEFT SQUARE BRACKET
 '.........\n'+
 '.........\n'+
 '..****...\n'+
@@ -1563,8 +1471,7 @@ LEFT_SQUARE_BRACKET:
 '.........\n'+
 '.........\n',
 
-// U+005C REVERSE SOLIDUS (CP437-92)
-REVERSE_SOLIDUS:
+'\\': // U+005C REVERSE SOLIDUS
 '.........\n'+
 '.........\n'+
 '*........\n'+
@@ -1580,8 +1487,7 @@ REVERSE_SOLIDUS:
 '.........\n'+
 '.........\n',
 
-// U+005D RIGHT SQUARE BRACKET (CP437-93)
-RIGHT_SQUARE_BRACKET:
+']': // U+005D RIGHT SQUARE BRACKET
 '.........\n'+
 '.........\n'+
 '..****...\n'+
@@ -1597,8 +1503,7 @@ RIGHT_SQUARE_BRACKET:
 '.........\n'+
 '.........\n',
 
-// U+005E CIRCUMFLEX ACCENT (CP437-94)
-CIRCUMFLEX_ACCENT:
+'^': // U+005E CIRCUMFLEX ACCENT
 '...*.....\n'+
 '..***....\n'+
 '.**.**...\n'+
@@ -1614,8 +1519,7 @@ CIRCUMFLEX_ACCENT:
 '.........\n'+
 '.........\n',
 
-// U+005F LOW LINE (CP437-95)
-LOW_LINE:
+'_': // U+005F LOW LINE
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -1631,8 +1535,7 @@ LOW_LINE:
 '********.\n'+
 '.........\n',
 
-// U+0060 GRAVE ACCENT (CP437-96)
-GRAVE_ACCENT:
+'`': // U+0060 GRAVE ACCENT
 '..**.....\n'+
 '..**.....\n'+
 '...**....\n'+
@@ -1648,8 +1551,7 @@ GRAVE_ACCENT:
 '.........\n'+
 '.........\n',
 
-// U+0061 LATIN SMALL LETTER A (CP437-97)
-LATIN_SMALL_LETTER_A:
+'a': // U+0061 LATIN SMALL LETTER A
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -1665,8 +1567,7 @@ LATIN_SMALL_LETTER_A:
 '.........\n'+
 '.........\n',
 
-// U+0062 LATIN SMALL LETTER B (CP437-98)
-LATIN_SMALL_LETTER_B:
+'b': // U+0062 LATIN SMALL LETTER B
 '.........\n'+
 '.........\n'+
 '***......\n'+
@@ -1682,8 +1583,7 @@ LATIN_SMALL_LETTER_B:
 '.........\n'+
 '.........\n',
 
-// U+0063 LATIN SMALL LETTER C (CP437-99)
-LATIN_SMALL_LETTER_C:
+'c': // U+0063 LATIN SMALL LETTER C
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -1699,8 +1599,7 @@ LATIN_SMALL_LETTER_C:
 '.........\n'+
 '.........\n',
 
-// U+0064 LATIN SMALL LETTER D (CP437-100)
-LATIN_SMALL_LETTER_D:
+'d': // U+0064 LATIN SMALL LETTER D
 '.........\n'+
 '.........\n'+
 '...***...\n'+
@@ -1716,8 +1615,7 @@ LATIN_SMALL_LETTER_D:
 '.........\n'+
 '.........\n',
 
-// U+0065 LATIN SMALL LETTER E (CP437-101)
-LATIN_SMALL_LETTER_E:
+'e': // U+0065 LATIN SMALL LETTER E
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -1733,8 +1631,7 @@ LATIN_SMALL_LETTER_E:
 '.........\n'+
 '.........\n',
 
-// U+0066 LATIN SMALL LETTER F (CP437-102)
-LATIN_SMALL_LETTER_F:
+'f': // U+0066 LATIN SMALL LETTER F
 '.........\n'+
 '.........\n'+
 '..***....\n'+
@@ -1750,8 +1647,7 @@ LATIN_SMALL_LETTER_F:
 '.........\n'+
 '.........\n',
 
-// U+0067 LATIN SMALL LETTER G (CP437-103)
-LATIN_SMALL_LETTER_G:
+'g': // U+0067 LATIN SMALL LETTER G
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -1767,8 +1663,7 @@ LATIN_SMALL_LETTER_G:
 '.****....\n'+
 '.........\n',
 
-// U+0068 LATIN SMALL LETTER H (CP437-104)
-LATIN_SMALL_LETTER_H:
+'h': // U+0068 LATIN SMALL LETTER H
 '.........\n'+
 '.........\n'+
 '***......\n'+
@@ -1784,8 +1679,7 @@ LATIN_SMALL_LETTER_H:
 '.........\n'+
 '.........\n',
 
-// U+0069 LATIN SMALL LETTER I (CP437-105)
-LATIN_SMALL_LETTER_I:
+'i': // U+0069 LATIN SMALL LETTER I
 '.........\n'+
 '.........\n'+
 '...**....\n'+
@@ -1801,8 +1695,7 @@ LATIN_SMALL_LETTER_I:
 '.........\n'+
 '.........\n',
 
-// U+006A LATIN SMALL LETTER J (CP437-106)
-LATIN_SMALL_LETTER_J:
+'j': // U+006A LATIN SMALL LETTER J
 '.........\n'+
 '.........\n'+
 '.....**..\n'+
@@ -1818,8 +1711,7 @@ LATIN_SMALL_LETTER_J:
 '..****...\n'+
 '.........\n',
 
-// U+006B LATIN SMALL LETTER K (CP437-107)
-LATIN_SMALL_LETTER_K:
+'k': // U+006B LATIN SMALL LETTER K
 '.........\n'+
 '.........\n'+
 '***......\n'+
@@ -1835,8 +1727,7 @@ LATIN_SMALL_LETTER_K:
 '.........\n'+
 '.........\n',
 
-// U+006C LATIN SMALL LETTER L (CP437-108)
-LATIN_SMALL_LETTER_L:
+'l': // U+006C LATIN SMALL LETTER L
 '.........\n'+
 '.........\n'+
 '..***....\n'+
@@ -1852,8 +1743,7 @@ LATIN_SMALL_LETTER_L:
 '.........\n'+
 '.........\n',
 
-// U+006D LATIN SMALL LETTER M (CP437-109)
-LATIN_SMALL_LETTER_M:
+'m': // U+006D LATIN SMALL LETTER M
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -1869,8 +1759,7 @@ LATIN_SMALL_LETTER_M:
 '.........\n'+
 '.........\n',
 
-// U+006E LATIN SMALL LETTER N (CP437-110)
-LATIN_SMALL_LETTER_N:
+'n': // U+006E LATIN SMALL LETTER N
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -1886,8 +1775,7 @@ LATIN_SMALL_LETTER_N:
 '.........\n'+
 '.........\n',
 
-// U+006F LATIN SMALL LETTER O (CP437-111)
-LATIN_SMALL_LETTER_O:
+'o': // U+006F LATIN SMALL LETTER O
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -1903,8 +1791,7 @@ LATIN_SMALL_LETTER_O:
 '.........\n'+
 '.........\n',
 
-// U+0070 LATIN SMALL LETTER P (CP437-112)
-LATIN_SMALL_LETTER_P:
+'p': // U+0070 LATIN SMALL LETTER P
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -1920,8 +1807,7 @@ LATIN_SMALL_LETTER_P:
 '****.....\n'+
 '.........\n',
 
-// U+0071 LATIN SMALL LETTER Q (CP437-113)
-LATIN_SMALL_LETTER_Q:
+'q': // U+0071 LATIN SMALL LETTER Q
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -1937,8 +1823,7 @@ LATIN_SMALL_LETTER_Q:
 '...****..\n'+
 '.........\n',
 
-// U+0072 LATIN SMALL LETTER R (CP437-114)
-LATIN_SMALL_LETTER_R:
+'r': // U+0072 LATIN SMALL LETTER R
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -1954,8 +1839,7 @@ LATIN_SMALL_LETTER_R:
 '.........\n'+
 '.........\n',
 
-// U+0073 LATIN SMALL LETTER S (CP437-115)
-LATIN_SMALL_LETTER_S:
+'s': // U+0073 LATIN SMALL LETTER S
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -1971,8 +1855,7 @@ LATIN_SMALL_LETTER_S:
 '.........\n'+
 '.........\n',
 
-// U+0074 LATIN SMALL LETTER T (CP437-116)
-LATIN_SMALL_LETTER_T:
+'t': // U+0074 LATIN SMALL LETTER T
 '.........\n'+
 '.........\n'+
 '...*.....\n'+
@@ -1988,8 +1871,7 @@ LATIN_SMALL_LETTER_T:
 '.........\n'+
 '.........\n',
 
-// U+0075 LATIN SMALL LETTER U (CP437-117)
-LATIN_SMALL_LETTER_U:
+'u': // U+0075 LATIN SMALL LETTER U
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -2005,8 +1887,7 @@ LATIN_SMALL_LETTER_U:
 '.........\n'+
 '.........\n',
 
-// U+0076 LATIN SMALL LETTER V (CP437-118)
-LATIN_SMALL_LETTER_V:
+'v': // U+0076 LATIN SMALL LETTER V
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -2022,8 +1903,7 @@ LATIN_SMALL_LETTER_V:
 '.........\n'+
 '.........\n',
 
-// U+0077 LATIN SMALL LETTER W (CP437-119)
-LATIN_SMALL_LETTER_W:
+'w': // U+0077 LATIN SMALL LETTER W
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -2039,8 +1919,7 @@ LATIN_SMALL_LETTER_W:
 '.........\n'+
 '.........\n',
 
-// U+0078 LATIN SMALL LETTER X (CP437-120)
-LATIN_SMALL_LETTER_X:
+'x': // U+0078 LATIN SMALL LETTER X
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -2056,8 +1935,7 @@ LATIN_SMALL_LETTER_X:
 '.........\n'+
 '.........\n',
 
-// U+0079 LATIN SMALL LETTER Y (CP437-121)
-LATIN_SMALL_LETTER_Y:
+'y': // U+0079 LATIN SMALL LETTER Y
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -2073,8 +1951,7 @@ LATIN_SMALL_LETTER_Y:
 '*****....\n'+
 '.........\n',
 
-// U+007A LATIN SMALL LETTER Z (CP437-122)
-LATIN_SMALL_LETTER_Z:
+'z': // U+007A LATIN SMALL LETTER Z
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -2090,8 +1967,7 @@ LATIN_SMALL_LETTER_Z:
 '.........\n'+
 '.........\n',
 
-// U+007B LEFT CURLY BRACKET (CP437-123)
-LEFT_CURLY_BRACKET:
+'{': // U+007B LEFT CURLY BRACKET
 '.........\n'+
 '.........\n'+
 '....***..\n'+
@@ -2107,8 +1983,7 @@ LEFT_CURLY_BRACKET:
 '.........\n'+
 '.........\n',
 
-// U+007C VERTICAL LINE (CP437-124)
-VERTICAL_LINE:
+'|': // U+007C VERTICAL LINE
 '.........\n'+
 '.........\n'+
 '...**....\n'+
@@ -2124,8 +1999,7 @@ VERTICAL_LINE:
 '.........\n'+
 '.........\n',
 
-// U+007D RIGHT CURLY BRACKET (CP437-125)
-RIGHT_CURLY_BRACKET:
+'}': // U+007D RIGHT CURLY BRACKET
 '.........\n'+
 '.........\n'+
 '.***.....\n'+
@@ -2141,8 +2015,7 @@ RIGHT_CURLY_BRACKET:
 '.........\n'+
 '.........\n',
 
-// U+007E TILDE (CP437-126)
-TILDE:
+'~': // U+007E TILDE
 '.........\n'+
 '.........\n'+
 '.***.**..\n'+
@@ -2158,8 +2031,7 @@ TILDE:
 '.........\n'+
 '.........\n',
 
-// U+2302 HOUSE (CP437-127)
-HOUSE:
+'⌂': // U+2302 HOUSE
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -2175,8 +2047,7 @@ HOUSE:
 '.........\n'+
 '.........\n',
 
-// U+00C7 LATIN CAPITAL LETTER C WITH CEDILLA (CP437-128)
-LATIN_CAPITAL_LETTER_C_WITH_CEDILLA:
+'Ç': // U+00C7 LATIN CAPITAL LETTER C WITH CEDILLA
 '.........\n'+
 '.........\n'+
 '..****...\n'+
@@ -2192,8 +2063,7 @@ LATIN_CAPITAL_LETTER_C_WITH_CEDILLA:
 '.*****...\n'+
 '.........\n',
 
-// U+00FC LATIN SMALL LETTER U WITH DIAERESIS (CP437-129)
-LATIN_SMALL_LETTER_U_WITH_DIAERESIS:
+'ü': // U+00FC LATIN SMALL LETTER U WITH DIAERESIS
 '.........\n'+
 '.........\n'+
 '**..**...\n'+
@@ -2209,8 +2079,7 @@ LATIN_SMALL_LETTER_U_WITH_DIAERESIS:
 '.........\n'+
 '.........\n',
 
-// U+00E9 LATIN SMALL LETTER E WITH ACUTE (CP437-130)
-LATIN_SMALL_LETTER_E_WITH_ACUTE:
+'é': // U+00E9 LATIN SMALL LETTER E WITH ACUTE
 '.........\n'+
 '....**...\n'+
 '...**....\n'+
@@ -2226,8 +2095,7 @@ LATIN_SMALL_LETTER_E_WITH_ACUTE:
 '.........\n'+
 '.........\n',
 
-// U+00E2 LATIN SMALL LETTER A WITH CIRCUMFLEX (CP437-131)
-LATIN_SMALL_LETTER_A_WITH_CIRCUMFLEX:
+'â': // U+00E2 LATIN SMALL LETTER A WITH CIRCUMFLEX
 '.........\n'+
 '...*.....\n'+
 '..***....\n'+
@@ -2243,8 +2111,7 @@ LATIN_SMALL_LETTER_A_WITH_CIRCUMFLEX:
 '.........\n'+
 '.........\n',
 
-// U+00E4 LATIN SMALL LETTER A WITH DIAERESIS (CP437-132)
-LATIN_SMALL_LETTER_A_WITH_DIAERESIS:
+'ä': // U+00E4 LATIN SMALL LETTER A WITH DIAERESIS
 '.........\n'+
 '.........\n'+
 '**..**...\n'+
@@ -2260,8 +2127,7 @@ LATIN_SMALL_LETTER_A_WITH_DIAERESIS:
 '.........\n'+
 '.........\n',
 
-// U+00E0 LATIN SMALL LETTER A WITH GRAVE (CP437-133)
-LATIN_SMALL_LETTER_A_WITH_GRAVE:
+'à': // U+00E0 LATIN SMALL LETTER A WITH GRAVE
 '.........\n'+
 '.**......\n'+
 '..**.....\n'+
@@ -2277,8 +2143,7 @@ LATIN_SMALL_LETTER_A_WITH_GRAVE:
 '.........\n'+
 '.........\n',
 
-// U+00E5 LATIN SMALL LETTER A WITH RING ABOVE (CP437-134)
-LATIN_SMALL_LETTER_A_WITH_RING_ABOVE:
+'å': // U+00E5 LATIN SMALL LETTER A WITH RING ABOVE
 '.........\n'+
 '..***....\n'+
 '.**.**...\n'+
@@ -2294,8 +2159,7 @@ LATIN_SMALL_LETTER_A_WITH_RING_ABOVE:
 '.........\n'+
 '.........\n',
 
-// U+00E7 LATIN SMALL LETTER C WITH CEDILLA (CP437-135)
-LATIN_SMALL_LETTER_C_WITH_CEDILLA:
+'ç': // U+00E7 LATIN SMALL LETTER C WITH CEDILLA
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -2311,8 +2175,7 @@ LATIN_SMALL_LETTER_C_WITH_CEDILLA:
 '.........\n'+
 '.........\n',
 
-// U+00EA LATIN SMALL LETTER E WITH CIRCUMFLEX (CP437-136)
-LATIN_SMALL_LETTER_E_WITH_CIRCUMFLEX:
+'ê': // U+00EA LATIN SMALL LETTER E WITH CIRCUMFLEX
 '.........\n'+
 '...*.....\n'+
 '..***....\n'+
@@ -2328,8 +2191,7 @@ LATIN_SMALL_LETTER_E_WITH_CIRCUMFLEX:
 '.........\n'+
 '.........\n',
 
-// U+00EB LATIN SMALL LETTER E WITH DIAERESIS (CP437-137)
-LATIN_SMALL_LETTER_E_WITH_DIAERESIS:
+'ë': // U+00EB LATIN SMALL LETTER E WITH DIAERESIS
 '.........\n'+
 '.........\n'+
 '**..**...\n'+
@@ -2345,8 +2207,7 @@ LATIN_SMALL_LETTER_E_WITH_DIAERESIS:
 '.........\n'+
 '.........\n',
 
-// U+00E8 LATIN SMALL LETTER E WITH GRAVE (CP437-138)
-LATIN_SMALL_LETTER_E_WITH_GRAVE:
+'è': // U+00E8 LATIN SMALL LETTER E WITH GRAVE
 '.........\n'+
 '.**......\n'+
 '..**.....\n'+
@@ -2362,8 +2223,7 @@ LATIN_SMALL_LETTER_E_WITH_GRAVE:
 '.........\n'+
 '.........\n',
 
-// U+00EF LATIN SMALL LETTER I WITH DIAERESIS (CP437-139)
-LATIN_SMALL_LETTER_I_WITH_DIAERESIS:
+'ï': // U+00EF LATIN SMALL LETTER I WITH DIAERESIS
 '.........\n'+
 '.........\n'+
 '.**..**..\n'+
@@ -2379,8 +2239,7 @@ LATIN_SMALL_LETTER_I_WITH_DIAERESIS:
 '.........\n'+
 '.........\n',
 
-// U+00EE LATIN SMALL LETTER I WITH CIRCUMFLEX (CP437-140)
-LATIN_SMALL_LETTER_I_WITH_CIRCUMFLEX:
+'î': // U+00EE LATIN SMALL LETTER I WITH CIRCUMFLEX
 '.........\n'+
 '...**....\n'+
 '..****...\n'+
@@ -2396,8 +2255,7 @@ LATIN_SMALL_LETTER_I_WITH_CIRCUMFLEX:
 '.........\n'+
 '.........\n',
 
-// U+00EC LATIN SMALL LETTER I WITH GRAVE (CP437-141)
-LATIN_SMALL_LETTER_I_WITH_GRAVE:
+'ì': // U+00EC LATIN SMALL LETTER I WITH GRAVE
 '.........\n'+
 '.**......\n'+
 '..**.....\n'+
@@ -2413,8 +2271,7 @@ LATIN_SMALL_LETTER_I_WITH_GRAVE:
 '.........\n'+
 '.........\n',
 
-// U+00C4 LATIN CAPITAL LETTER A WITH DIAERESIS (CP437-142)
-LATIN_CAPITAL_LETTER_A_WITH_DIAERESIS:
+'Ä': // U+00C4 LATIN CAPITAL LETTER A WITH DIAERESIS
 '.........\n'+
 '**...**..\n'+
 '**...**..\n'+
@@ -2430,8 +2287,7 @@ LATIN_CAPITAL_LETTER_A_WITH_DIAERESIS:
 '.........\n'+
 '.........\n',
 
-// U+00C5 LATIN CAPITAL LETTER A WITH RING ABOVE (CP437-143)
-LATIN_CAPITAL_LETTER_A_WITH_RING_ABOVE:
+'Å': // U+00C5 LATIN CAPITAL LETTER A WITH RING ABOVE
 '..***....\n'+
 '.**.**...\n'+
 '..***....\n'+
@@ -2447,8 +2303,7 @@ LATIN_CAPITAL_LETTER_A_WITH_RING_ABOVE:
 '.........\n'+
 '.........\n',
 
-// U+00C9 LATIN CAPITAL LETTER E WITH ACUTE (CP437-144)
-LATIN_CAPITAL_LETTER_E_WITH_ACUTE:
+'É': // U+00C9 LATIN CAPITAL LETTER E WITH ACUTE
 '...**....\n'+
 '..**.....\n'+
 '.**......\n'+
@@ -2464,8 +2319,7 @@ LATIN_CAPITAL_LETTER_E_WITH_ACUTE:
 '.........\n'+
 '.........\n',
 
-// U+00E6 LATIN SMALL LETTER AE (CP437-145)
-LATIN_SMALL_LETTER_AE:
+'æ': // U+00E6 LATIN SMALL LETTER AE
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -2481,8 +2335,7 @@ LATIN_SMALL_LETTER_AE:
 '.........\n'+
 '.........\n',
 
-// U+00C6 LATIN CAPITAL LETTER AE (CP437-146)
-LATIN_CAPITAL_LETTER_AE:
+'Æ': // U+00C6 LATIN CAPITAL LETTER AE
 '.........\n'+
 '.........\n'+
 '..*****..\n'+
@@ -2498,8 +2351,7 @@ LATIN_CAPITAL_LETTER_AE:
 '.........\n'+
 '.........\n',
 
-// U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX (CP437-147)
-LATIN_SMALL_LETTER_O_WITH_CIRCUMFLEX:
+'ô': // U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX
 '.........\n'+
 '...*.....\n'+
 '..***....\n'+
@@ -2515,8 +2367,7 @@ LATIN_SMALL_LETTER_O_WITH_CIRCUMFLEX:
 '.........\n'+
 '.........\n',
 
-// U+00F6 LATIN SMALL LETTER O WITH DIAERESIS (CP437-148)
-LATIN_SMALL_LETTER_O_WITH_DIAERESIS:
+'ö': // U+00F6 LATIN SMALL LETTER O WITH DIAERESIS
 '.........\n'+
 '.........\n'+
 '**...**..\n'+
@@ -2532,8 +2383,7 @@ LATIN_SMALL_LETTER_O_WITH_DIAERESIS:
 '.........\n'+
 '.........\n',
 
-// U+00F2 LATIN SMALL LETTER O WITH GRAVE (CP437-149)
-LATIN_SMALL_LETTER_O_WITH_GRAVE:
+'ò': // U+00F2 LATIN SMALL LETTER O WITH GRAVE
 '.........\n'+
 '.**......\n'+
 '..**.....\n'+
@@ -2549,8 +2399,7 @@ LATIN_SMALL_LETTER_O_WITH_GRAVE:
 '.........\n'+
 '.........\n',
 
-// U+00FB LATIN SMALL LETTER U WITH CIRCUMFLEX (CP437-150)
-LATIN_SMALL_LETTER_U_WITH_CIRCUMFLEX:
+'û': // U+00FB LATIN SMALL LETTER U WITH CIRCUMFLEX
 '.........\n'+
 '..**.....\n'+
 '.****....\n'+
@@ -2566,8 +2415,7 @@ LATIN_SMALL_LETTER_U_WITH_CIRCUMFLEX:
 '.........\n'+
 '.........\n',
 
-// U+00F9 LATIN SMALL LETTER U WITH GRAVE (CP437-151)
-LATIN_SMALL_LETTER_U_WITH_GRAVE:
+'ù': // U+00F9 LATIN SMALL LETTER U WITH GRAVE
 '.........\n'+
 '.**......\n'+
 '..**.....\n'+
@@ -2583,8 +2431,7 @@ LATIN_SMALL_LETTER_U_WITH_GRAVE:
 '.........\n'+
 '.........\n',
 
-// U+00FF LATIN SMALL LETTER Y WITH DIAERESIS (CP437-152)
-LATIN_SMALL_LETTER_Y_WITH_DIAERESIS:
+'ÿ': // U+00FF LATIN SMALL LETTER Y WITH DIAERESIS
 '.........\n'+
 '.........\n'+
 '**...**..\n'+
@@ -2600,8 +2447,7 @@ LATIN_SMALL_LETTER_Y_WITH_DIAERESIS:
 '.****....\n'+
 '.........\n',
 
-// U+00D6 LATIN CAPITAL LETTER O WITH DIAERESIS (CP437-153)
-LATIN_CAPITAL_LETTER_O_WITH_DIAERESIS:
+'Ö': // U+00D6 LATIN CAPITAL LETTER O WITH DIAERESIS
 '.........\n'+
 '**...**..\n'+
 '**...**..\n'+
@@ -2617,8 +2463,7 @@ LATIN_CAPITAL_LETTER_O_WITH_DIAERESIS:
 '.........\n'+
 '.........\n',
 
-// U+00DC LATIN CAPITAL LETTER U WITH DIAERESIS (CP437-154)
-LATIN_CAPITAL_LETTER_U_WITH_DIAERESIS:
+'Ü': // U+00DC LATIN CAPITAL LETTER U WITH DIAERESIS
 '.........\n'+
 '**...**..\n'+
 '**...**..\n'+
@@ -2634,8 +2479,7 @@ LATIN_CAPITAL_LETTER_U_WITH_DIAERESIS:
 '.........\n'+
 '.........\n',
 
-// U+00A2 CENT SIGN (CP437-155)
-CENT_SIGN:
+'¢': // U+00A2 CENT SIGN
 '.........\n'+
 '...**....\n'+
 '...**....\n'+
@@ -2651,8 +2495,7 @@ CENT_SIGN:
 '.........\n'+
 '.........\n',
 
-// U+00A3 POUND SIGN (CP437-156)
-POUND_SIGN:
+'£': // U+00A3 POUND SIGN
 '.........\n'+
 '..***....\n'+
 '.**.**...\n'+
@@ -2668,8 +2511,7 @@ POUND_SIGN:
 '.........\n'+
 '.........\n',
 
-// U+00A5 YEN SIGN (CP437-157)
-YEN_SIGN:
+'¥': // U+00A5 YEN SIGN
 '.........\n'+
 '.........\n'+
 '**....**.\n'+
@@ -2685,8 +2527,7 @@ YEN_SIGN:
 '.........\n'+
 '.........\n',
 
-// U+20A7 PESETA SIGN (CP437-158)
-PESETA_SIGN:
+'₧': // U+20A7 PESETA SIGN
 '.........\n'+
 '******...\n'+
 '.**..**..\n'+
@@ -2702,8 +2543,7 @@ PESETA_SIGN:
 '.........\n'+
 '.........\n',
 
-// U+0192 LATIN SMALL LETTER F WITH HOOK (CP437-159)
-LATIN_SMALL_LETTER_F_WITH_HOOK:
+'ƒ': // U+0192 LATIN SMALL LETTER F WITH HOOK
 '.........\n'+
 '....***..\n'+
 '...**.**.\n'+
@@ -2719,8 +2559,7 @@ LATIN_SMALL_LETTER_F_WITH_HOOK:
 '.***.....\n'+
 '.........\n',
 
-// U+00E1 LATIN SMALL LETTER A WITH ACUTE (CP437-160)
-LATIN_SMALL_LETTER_A_WITH_ACUTE:
+'á': // U+00E1 LATIN SMALL LETTER A WITH ACUTE
 '.........\n'+
 '...**....\n'+
 '..**.....\n'+
@@ -2736,8 +2575,7 @@ LATIN_SMALL_LETTER_A_WITH_ACUTE:
 '.........\n'+
 '.........\n',
 
-// U+00ED LATIN SMALL LETTER I WITH ACUTE (CP437-161)
-LATIN_SMALL_LETTER_I_WITH_ACUTE:
+'í': // U+00ED LATIN SMALL LETTER I WITH ACUTE
 '.........\n'+
 '....**...\n'+
 '...**....\n'+
@@ -2753,8 +2591,7 @@ LATIN_SMALL_LETTER_I_WITH_ACUTE:
 '.........\n'+
 '.........\n',
 
-// U+00F3 LATIN SMALL LETTER O WITH ACUTE (CP437-162)
-LATIN_SMALL_LETTER_O_WITH_ACUTE:
+'ó': // U+00F3 LATIN SMALL LETTER O WITH ACUTE
 '.........\n'+
 '...**....\n'+
 '..**.....\n'+
@@ -2770,8 +2607,7 @@ LATIN_SMALL_LETTER_O_WITH_ACUTE:
 '.........\n'+
 '.........\n',
 
-// U+00FA LATIN SMALL LETTER U WITH ACUTE (CP437-163)
-LATIN_SMALL_LETTER_U_WITH_ACUTE:
+'ú': // U+00FA LATIN SMALL LETTER U WITH ACUTE
 '.........\n'+
 '...**....\n'+
 '..**.....\n'+
@@ -2787,8 +2623,7 @@ LATIN_SMALL_LETTER_U_WITH_ACUTE:
 '.........\n'+
 '.........\n',
 
-// U+00F1 LATIN SMALL LETTER N WITH TILDE (CP437-164)
-LATIN_SMALL_LETTER_N_WITH_TILDE:
+'ñ': // U+00F1 LATIN SMALL LETTER N WITH TILDE
 '.........\n'+
 '.........\n'+
 '.***.**..\n'+
@@ -2804,8 +2639,7 @@ LATIN_SMALL_LETTER_N_WITH_TILDE:
 '.........\n'+
 '.........\n',
 
-// U+00D1 LATIN CAPITAL LETTER N WITH TILDE (CP437-165)
-LATIN_CAPITAL_LETTER_N_WITH_TILDE:
+'Ñ': // U+00D1 LATIN CAPITAL LETTER N WITH TILDE
 '.***.**..\n'+
 '**.***...\n'+
 '.........\n'+
@@ -2821,8 +2655,7 @@ LATIN_CAPITAL_LETTER_N_WITH_TILDE:
 '.........\n'+
 '.........\n',
 
-// U+00AA FEMININE ORDINAL INDICATOR (CP437-166)
-FEMININE_ORDINAL_INDICATOR:
+'ª': // U+00AA FEMININE ORDINAL INDICATOR
 '.........\n'+
 '..****...\n'+
 '.**.**...\n'+
@@ -2838,8 +2671,7 @@ FEMININE_ORDINAL_INDICATOR:
 '.........\n'+
 '.........\n',
 
-// U+00BA MASCULINE ORDINAL INDICATOR (CP437-167)
-MASCULINE_ORDINAL_INDICATOR:
+'º': // U+00BA MASCULINE ORDINAL INDICATOR
 '.........\n'+
 '..***....\n'+
 '.**.**...\n'+
@@ -2855,8 +2687,7 @@ MASCULINE_ORDINAL_INDICATOR:
 '.........\n'+
 '.........\n',
 
-// U+00BF INVERTED QUESTION MARK (CP437-168)
-INVERTED_QUESTION_MARK:
+'¿': // U+00BF INVERTED QUESTION MARK
 '.........\n'+
 '.........\n'+
 '..**.....\n'+
@@ -2872,8 +2703,7 @@ INVERTED_QUESTION_MARK:
 '.........\n'+
 '.........\n',
 
-// U+2310 REVERSED NOT SIGN (CP437-169)
-REVERSED_NOT_SIGN:
+'⌐': // U+2310 REVERSED NOT SIGN
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -2889,8 +2719,7 @@ REVERSED_NOT_SIGN:
 '.........\n'+
 '.........\n',
 
-// U+00AC NOT SIGN (CP437-170)
-NOT_SIGN:
+'¬': // U+00AC NOT SIGN
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -2906,8 +2735,7 @@ NOT_SIGN:
 '.........\n'+
 '.........\n',
 
-// U+00BD VULGAR FRACTION ONE HALF (CP437-171)
-VULGAR_FRACTION_ONE_HALF:
+'½': // U+00BD VULGAR FRACTION ONE HALF
 '.........\n'+
 '**.......\n'+
 '**.......\n'+
@@ -2923,8 +2751,7 @@ VULGAR_FRACTION_ONE_HALF:
 '..*****..\n'+
 '.........\n',
 
-// U+00BC VULGAR FRACTION ONE QUARTER (CP437-172)
-VULGAR_FRACTION_ONE_QUARTER:
+'¼': // U+00BC VULGAR FRACTION ONE QUARTER
 '.........\n'+
 '**.......\n'+
 '**.......\n'+
@@ -2940,8 +2767,7 @@ VULGAR_FRACTION_ONE_QUARTER:
 '.....**..\n'+
 '.........\n',
 
-// U+00A1 INVERTED EXCLAMATION MARK (CP437-173)
-INVERTED_EXCLAMATION_MARK:
+'¡': // U+00A1 INVERTED EXCLAMATION MARK
 '.........\n'+
 '.........\n'+
 '...**....\n'+
@@ -2957,8 +2783,7 @@ INVERTED_EXCLAMATION_MARK:
 '.........\n'+
 '.........\n',
 
-// U+00AB LEFT-POINTING DOUBLE ANGLE QUOTATION MARK (CP437-174)
-LEFT_POINTING_DOUBLE_ANGLE_QUOTATION_MARK:
+'«': // U+00AB LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -2974,8 +2799,7 @@ LEFT_POINTING_DOUBLE_ANGLE_QUOTATION_MARK:
 '.........\n'+
 '.........\n',
 
-// U+00BB RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK (CP437-175)
-RIGHT_POINTING_DOUBLE_ANGLE_QUOTATION_MARK:
+'»': // U+00BB RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -2991,8 +2815,7 @@ RIGHT_POINTING_DOUBLE_ANGLE_QUOTATION_MARK:
 '.........\n'+
 '.........\n',
 
-// U+2591 LIGHT SHADE (CP437-176)
-LIGHT_SHADE:
+'░': // U+2591 LIGHT SHADE
 '...*...*.\n'+
 '.*...*...\n'+
 '...*...*.\n'+
@@ -3008,8 +2831,7 @@ LIGHT_SHADE:
 '...*...*.\n'+
 '.*...*...\n',
 
-// U+2592 MEDIUM SHADE (CP437-177)
-MEDIUM_SHADE:
+'▒': // U+2592 MEDIUM SHADE
 '.*.*.*.*.\n'+
 '*.*.*.*..\n'+
 '.*.*.*.*.\n'+
@@ -3025,8 +2847,7 @@ MEDIUM_SHADE:
 '.*.*.*.*.\n'+
 '*.*.*.*..\n',
 
-// U+2593 DARK SHADE (CP437-178)
-DARK_SHADE:
+'▓': // U+2593 DARK SHADE
 '**.***.*.\n'+
 '.***.***.\n'+
 '**.***.*.\n'+
@@ -3042,8 +2863,7 @@ DARK_SHADE:
 '**.***.*.\n'+
 '.***.***.\n',
 
-// U+2502 BOX DRAWINGS LIGHT VERTICAL (CP437-179)
-BOX_DRAWINGS_LIGHT_VERTICAL:
+'│': // U+2502 BOX DRAWINGS LIGHT VERTICAL
 '...**....\n'+
 '...**....\n'+
 '...**....\n'+
@@ -3059,8 +2879,7 @@ BOX_DRAWINGS_LIGHT_VERTICAL:
 '...**....\n'+
 '...**....\n',
 
-// U+2524 BOX DRAWINGS LIGHT VERTICAL AND LEFT (CP437-180)
-BOX_DRAWINGS_LIGHT_VERTICAL_AND_LEFT:
+'┤': // U+2524 BOX DRAWINGS LIGHT VERTICAL AND LEFT
 '...**....\n'+
 '...**....\n'+
 '...**....\n'+
@@ -3076,8 +2895,7 @@ BOX_DRAWINGS_LIGHT_VERTICAL_AND_LEFT:
 '...**....\n'+
 '...**....\n',
 
-// U+2561 BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE (CP437-181)
-BOX_DRAWINGS_VERTICAL_SINGLE_AND_LEFT_DOUBLE:
+'╡': // U+2561 BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE
 '...**....\n'+
 '...**....\n'+
 '...**....\n'+
@@ -3093,8 +2911,7 @@ BOX_DRAWINGS_VERTICAL_SINGLE_AND_LEFT_DOUBLE:
 '...**....\n'+
 '...**....\n',
 
-// U+2562 BOX DRAWINGS VERTICAL DOUBLE AND LEFT SINGLE (CP437-182)
-BOX_DRAWINGS_VERTICAL_DOUBLE_AND_LEFT_SINGLE:
+'╢': // U+2562 BOX DRAWINGS VERTICAL DOUBLE AND LEFT SINGLE
 '..**.**..\n'+
 '..**.**..\n'+
 '..**.**..\n'+
@@ -3110,8 +2927,7 @@ BOX_DRAWINGS_VERTICAL_DOUBLE_AND_LEFT_SINGLE:
 '..**.**..\n'+
 '..**.**..\n',
 
-// U+2556 BOX DRAWINGS DOWN DOUBLE AND LEFT SINGLE (CP437-183)
-BOX_DRAWINGS_DOWN_DOUBLE_AND_LEFT_SINGLE:
+'╖': // U+2556 BOX DRAWINGS DOWN DOUBLE AND LEFT SINGLE
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -3127,8 +2943,7 @@ BOX_DRAWINGS_DOWN_DOUBLE_AND_LEFT_SINGLE:
 '..**.**..\n'+
 '..**.**..\n',
 
-// U+2555 BOX DRAWINGS DOWN SINGLE AND LEFT DOUBLE (CP437-184)
-BOX_DRAWINGS_DOWN_SINGLE_AND_LEFT_DOUBLE:
+'╕': // U+2555 BOX DRAWINGS DOWN SINGLE AND LEFT DOUBLE
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -3144,8 +2959,7 @@ BOX_DRAWINGS_DOWN_SINGLE_AND_LEFT_DOUBLE:
 '...**....\n'+
 '...**....\n',
 
-// U+2563 BOX DRAWINGS DOUBLE VERTICAL AND LEFT (CP437-185)
-BOX_DRAWINGS_DOUBLE_VERTICAL_AND_LEFT:
+'╣': // U+2563 BOX DRAWINGS DOUBLE VERTICAL AND LEFT
 '..**.**..\n'+
 '..**.**..\n'+
 '..**.**..\n'+
@@ -3161,8 +2975,7 @@ BOX_DRAWINGS_DOUBLE_VERTICAL_AND_LEFT:
 '..**.**..\n'+
 '..**.**..\n',
 
-// U+2551 BOX DRAWINGS DOUBLE VERTICAL (CP437-186)
-BOX_DRAWINGS_DOUBLE_VERTICAL:
+'║': // U+2551 BOX DRAWINGS DOUBLE VERTICAL
 '..**.**..\n'+
 '..**.**..\n'+
 '..**.**..\n'+
@@ -3178,8 +2991,7 @@ BOX_DRAWINGS_DOUBLE_VERTICAL:
 '..**.**..\n'+
 '..**.**..\n',
 
-// U+2557 BOX DRAWINGS DOUBLE DOWN AND LEFT (CP437-187)
-BOX_DRAWINGS_DOUBLE_DOWN_AND_LEFT:
+'╗': // U+2557 BOX DRAWINGS DOUBLE DOWN AND LEFT
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -3195,8 +3007,7 @@ BOX_DRAWINGS_DOUBLE_DOWN_AND_LEFT:
 '..**.**..\n'+
 '..**.**..\n',
 
-// U+255D BOX DRAWINGS DOUBLE UP AND LEFT (CP437-188)
-BOX_DRAWINGS_DOUBLE_UP_AND_LEFT:
+'╝': // U+255D BOX DRAWINGS DOUBLE UP AND LEFT
 '..**.**..\n'+
 '..**.**..\n'+
 '..**.**..\n'+
@@ -3212,8 +3023,7 @@ BOX_DRAWINGS_DOUBLE_UP_AND_LEFT:
 '.........\n'+
 '.........\n',
 
-// U+255C BOX DRAWINGS UP DOUBLE AND LEFT SINGLE (CP437-189)
-BOX_DRAWINGS_UP_DOUBLE_AND_LEFT_SINGLE:
+'╜': // U+255C BOX DRAWINGS UP DOUBLE AND LEFT SINGLE
 '..**.**..\n'+
 '..**.**..\n'+
 '..**.**..\n'+
@@ -3229,8 +3039,7 @@ BOX_DRAWINGS_UP_DOUBLE_AND_LEFT_SINGLE:
 '.........\n'+
 '.........\n',
 
-// U+255B BOX DRAWINGS UP SINGLE AND LEFT DOUBLE (CP437-190)
-BOX_DRAWINGS_UP_SINGLE_AND_LEFT_DOUBLE:
+'╛': // U+255B BOX DRAWINGS UP SINGLE AND LEFT DOUBLE
 '...**....\n'+
 '...**....\n'+
 '...**....\n'+
@@ -3246,8 +3055,7 @@ BOX_DRAWINGS_UP_SINGLE_AND_LEFT_DOUBLE:
 '.........\n'+
 '.........\n',
 
-// U+2510 BOX DRAWINGS LIGHT DOWN AND LEFT (CP437-191)
-BOX_DRAWINGS_LIGHT_DOWN_AND_LEFT:
+'┐': // U+2510 BOX DRAWINGS LIGHT DOWN AND LEFT
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -3263,8 +3071,7 @@ BOX_DRAWINGS_LIGHT_DOWN_AND_LEFT:
 '...**....\n'+
 '...**....\n',
 
-// U+2514 BOX DRAWINGS LIGHT UP AND RIGHT (CP437-192)
-BOX_DRAWINGS_LIGHT_UP_AND_RIGHT:
+'└': // U+2514 BOX DRAWINGS LIGHT UP AND RIGHT
 '...**....\n'+
 '...**....\n'+
 '...**....\n'+
@@ -3280,8 +3087,7 @@ BOX_DRAWINGS_LIGHT_UP_AND_RIGHT:
 '.........\n'+
 '.........\n',
 
-// U+2534 BOX DRAWINGS LIGHT UP AND HORIZONTAL (CP437-193)
-BOX_DRAWINGS_LIGHT_UP_AND_HORIZONTAL:
+'┴': // U+2534 BOX DRAWINGS LIGHT UP AND HORIZONTAL
 '...**....\n'+
 '...**....\n'+
 '...**....\n'+
@@ -3297,8 +3103,7 @@ BOX_DRAWINGS_LIGHT_UP_AND_HORIZONTAL:
 '.........\n'+
 '.........\n',
 
-// U+252C BOX DRAWINGS LIGHT DOWN AND HORIZONTAL (CP437-194)
-BOX_DRAWINGS_LIGHT_DOWN_AND_HORIZONTAL:
+'┬': // U+252C BOX DRAWINGS LIGHT DOWN AND HORIZONTAL
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -3314,8 +3119,7 @@ BOX_DRAWINGS_LIGHT_DOWN_AND_HORIZONTAL:
 '...**....\n'+
 '...**....\n',
 
-// U+251C BOX DRAWINGS LIGHT VERTICAL AND RIGHT (CP437-195)
-BOX_DRAWINGS_LIGHT_VERTICAL_AND_RIGHT:
+'├': // U+251C BOX DRAWINGS LIGHT VERTICAL AND RIGHT
 '...**....\n'+
 '...**....\n'+
 '...**....\n'+
@@ -3331,8 +3135,7 @@ BOX_DRAWINGS_LIGHT_VERTICAL_AND_RIGHT:
 '...**....\n'+
 '...**....\n',
 
-// U+2500 BOX DRAWINGS LIGHT HORIZONTAL (CP437-196)
-BOX_DRAWINGS_LIGHT_HORIZONTAL:
+'─': // U+2500 BOX DRAWINGS LIGHT HORIZONTAL
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -3348,8 +3151,7 @@ BOX_DRAWINGS_LIGHT_HORIZONTAL:
 '.........\n'+
 '.........\n',
 
-// U+253C BOX DRAWINGS LIGHT VERTICAL AND HORIZONTAL (CP437-197)
-BOX_DRAWINGS_LIGHT_VERTICAL_AND_HORIZONTAL:
+'┼': // U+253C BOX DRAWINGS LIGHT VERTICAL AND HORIZONTAL
 '...**....\n'+
 '...**....\n'+
 '...**....\n'+
@@ -3365,8 +3167,7 @@ BOX_DRAWINGS_LIGHT_VERTICAL_AND_HORIZONTAL:
 '...**....\n'+
 '...**....\n',
 
-// U+255E BOX DRAWINGS VERTICAL SINGLE AND RIGHT DOUBLE (CP437-198)
-BOX_DRAWINGS_VERTICAL_SINGLE_AND_RIGHT_DOUBLE:
+'╞': // U+255E BOX DRAWINGS VERTICAL SINGLE AND RIGHT DOUBLE
 '...**....\n'+
 '...**....\n'+
 '...**....\n'+
@@ -3382,8 +3183,7 @@ BOX_DRAWINGS_VERTICAL_SINGLE_AND_RIGHT_DOUBLE:
 '...**....\n'+
 '...**....\n',
 
-// U+255F BOX DRAWINGS VERTICAL DOUBLE AND RIGHT SINGLE (CP437-199)
-BOX_DRAWINGS_VERTICAL_DOUBLE_AND_RIGHT_SINGLE:
+'╟': // U+255F BOX DRAWINGS VERTICAL DOUBLE AND RIGHT SINGLE
 '..**.**..\n'+
 '..**.**..\n'+
 '..**.**..\n'+
@@ -3399,8 +3199,7 @@ BOX_DRAWINGS_VERTICAL_DOUBLE_AND_RIGHT_SINGLE:
 '..**.**..\n'+
 '..**.**..\n',
 
-// U+255A BOX DRAWINGS DOUBLE UP AND RIGHT (CP437-200)
-BOX_DRAWINGS_DOUBLE_UP_AND_RIGHT:
+'╚': // U+255A BOX DRAWINGS DOUBLE UP AND RIGHT
 '..**.**..\n'+
 '..**.**..\n'+
 '..**.**..\n'+
@@ -3416,8 +3215,7 @@ BOX_DRAWINGS_DOUBLE_UP_AND_RIGHT:
 '.........\n'+
 '.........\n',
 
-// U+2554 BOX DRAWINGS DOUBLE DOWN AND RIGHT (CP437-201)
-BOX_DRAWINGS_DOUBLE_DOWN_AND_RIGHT:
+'╔': // U+2554 BOX DRAWINGS DOUBLE DOWN AND RIGHT
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -3433,8 +3231,7 @@ BOX_DRAWINGS_DOUBLE_DOWN_AND_RIGHT:
 '..**.**..\n'+
 '..**.**..\n',
 
-// U+2569 BOX DRAWINGS DOUBLE UP AND HORIZONTAL (CP437-202)
-BOX_DRAWINGS_DOUBLE_UP_AND_HORIZONTAL:
+'╩': // U+2569 BOX DRAWINGS DOUBLE UP AND HORIZONTAL
 '..**.**..\n'+
 '..**.**..\n'+
 '..**.**..\n'+
@@ -3450,8 +3247,7 @@ BOX_DRAWINGS_DOUBLE_UP_AND_HORIZONTAL:
 '.........\n'+
 '.........\n',
 
-// U+2566 BOX DRAWINGS DOUBLE DOWN AND HORIZONTAL (CP437-203)
-BOX_DRAWINGS_DOUBLE_DOWN_AND_HORIZONTAL:
+'╦': // U+2566 BOX DRAWINGS DOUBLE DOWN AND HORIZONTAL
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -3467,8 +3263,7 @@ BOX_DRAWINGS_DOUBLE_DOWN_AND_HORIZONTAL:
 '..**.**..\n'+
 '..**.**..\n',
 
-// U+2560 BOX DRAWINGS DOUBLE VERTICAL AND RIGHT (CP437-204)
-BOX_DRAWINGS_DOUBLE_VERTICAL_AND_RIGHT:
+'╠': // U+2560 BOX DRAWINGS DOUBLE VERTICAL AND RIGHT
 '..**.**..\n'+
 '..**.**..\n'+
 '..**.**..\n'+
@@ -3484,8 +3279,7 @@ BOX_DRAWINGS_DOUBLE_VERTICAL_AND_RIGHT:
 '..**.**..\n'+
 '..**.**..\n',
 
-// U+2550 BOX DRAWINGS DOUBLE HORIZONTAL (CP437-205)
-BOX_DRAWINGS_DOUBLE_HORIZONTAL:
+'═': // U+2550 BOX DRAWINGS DOUBLE HORIZONTAL
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -3501,8 +3295,7 @@ BOX_DRAWINGS_DOUBLE_HORIZONTAL:
 '.........\n'+
 '.........\n',
 
-// U+256C BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL (CP437-206)
-BOX_DRAWINGS_DOUBLE_VERTICAL_AND_HORIZONTAL:
+'╬': // U+256C BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL
 '..**.**..\n'+
 '..**.**..\n'+
 '..**.**..\n'+
@@ -3518,8 +3311,7 @@ BOX_DRAWINGS_DOUBLE_VERTICAL_AND_HORIZONTAL:
 '..**.**..\n'+
 '..**.**..\n',
 
-// U+2567 BOX DRAWINGS UP SINGLE AND HORIZONTAL DOUBLE (CP437-207)
-BOX_DRAWINGS_UP_SINGLE_AND_HORIZONTAL_DOUBLE:
+'╧': // U+2567 BOX DRAWINGS UP SINGLE AND HORIZONTAL DOUBLE
 '...**....\n'+
 '...**....\n'+
 '...**....\n'+
@@ -3535,8 +3327,7 @@ BOX_DRAWINGS_UP_SINGLE_AND_HORIZONTAL_DOUBLE:
 '.........\n'+
 '.........\n',
 
-// U+2568 BOX DRAWINGS UP DOUBLE AND HORIZONTAL SINGLE (CP437-208)
-BOX_DRAWINGS_UP_DOUBLE_AND_HORIZONTAL_SINGLE:
+'╨': // U+2568 BOX DRAWINGS UP DOUBLE AND HORIZONTAL SINGLE
 '..**.**..\n'+
 '..**.**..\n'+
 '..**.**..\n'+
@@ -3552,8 +3343,7 @@ BOX_DRAWINGS_UP_DOUBLE_AND_HORIZONTAL_SINGLE:
 '.........\n'+
 '.........\n',
 
-// U+2564 BOX DRAWINGS DOWN SINGLE AND HORIZONTAL DOUBLE (CP437-209)
-BOX_DRAWINGS_DOWN_SINGLE_AND_HORIZONTAL_DOUBLE:
+'╤': // U+2564 BOX DRAWINGS DOWN SINGLE AND HORIZONTAL DOUBLE
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -3569,8 +3359,7 @@ BOX_DRAWINGS_DOWN_SINGLE_AND_HORIZONTAL_DOUBLE:
 '...**....\n'+
 '...**....\n',
 
-// U+2565 BOX DRAWINGS DOWN DOUBLE AND HORIZONTAL SINGLE (CP437-210)
-BOX_DRAWINGS_DOWN_DOUBLE_AND_HORIZONTAL_SINGLE:
+'╥': // U+2565 BOX DRAWINGS DOWN DOUBLE AND HORIZONTAL SINGLE
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -3586,8 +3375,7 @@ BOX_DRAWINGS_DOWN_DOUBLE_AND_HORIZONTAL_SINGLE:
 '..**.**..\n'+
 '..**.**..\n',
 
-// U+2559 BOX DRAWINGS UP DOUBLE AND RIGHT SINGLE (CP437-211)
-BOX_DRAWINGS_UP_DOUBLE_AND_RIGHT_SINGLE:
+'╙': // U+2559 BOX DRAWINGS UP DOUBLE AND RIGHT SINGLE
 '..**.**..\n'+
 '..**.**..\n'+
 '..**.**..\n'+
@@ -3603,8 +3391,7 @@ BOX_DRAWINGS_UP_DOUBLE_AND_RIGHT_SINGLE:
 '.........\n'+
 '.........\n',
 
-// U+2558 BOX DRAWINGS UP SINGLE AND RIGHT DOUBLE (CP437-212)
-BOX_DRAWINGS_UP_SINGLE_AND_RIGHT_DOUBLE:
+'╘': // U+2558 BOX DRAWINGS UP SINGLE AND RIGHT DOUBLE
 '...**....\n'+
 '...**....\n'+
 '...**....\n'+
@@ -3620,8 +3407,7 @@ BOX_DRAWINGS_UP_SINGLE_AND_RIGHT_DOUBLE:
 '.........\n'+
 '.........\n',
 
-// U+2552 BOX DRAWINGS DOWN SINGLE AND RIGHT DOUBLE (CP437-213)
-BOX_DRAWINGS_DOWN_SINGLE_AND_RIGHT_DOUBLE:
+'╒': // U+2552 BOX DRAWINGS DOWN SINGLE AND RIGHT DOUBLE
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -3637,8 +3423,7 @@ BOX_DRAWINGS_DOWN_SINGLE_AND_RIGHT_DOUBLE:
 '...**....\n'+
 '...**....\n',
 
-// U+2553 BOX DRAWINGS DOWN DOUBLE AND RIGHT SINGLE (CP437-214)
-BOX_DRAWINGS_DOWN_DOUBLE_AND_RIGHT_SINGLE:
+'╓': // U+2553 BOX DRAWINGS DOWN DOUBLE AND RIGHT SINGLE
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -3654,8 +3439,7 @@ BOX_DRAWINGS_DOWN_DOUBLE_AND_RIGHT_SINGLE:
 '..**.**..\n'+
 '..**.**..\n',
 
-// U+256B BOX DRAWINGS VERTICAL DOUBLE AND HORIZONTAL SINGLE (CP437-215)
-BOX_DRAWINGS_VERTICAL_DOUBLE_AND_HORIZONTAL_SINGLE:
+'╫': // U+256B BOX DRAWINGS VERTICAL DOUBLE AND HORIZONTAL SINGLE
 '..**.**..\n'+
 '..**.**..\n'+
 '..**.**..\n'+
@@ -3671,8 +3455,7 @@ BOX_DRAWINGS_VERTICAL_DOUBLE_AND_HORIZONTAL_SINGLE:
 '..**.**..\n'+
 '..**.**..\n',
 
-// U+256A BOX DRAWINGS VERTICAL SINGLE AND HORIZONTAL DOUBLE (CP437-216)
-BOX_DRAWINGS_VERTICAL_SINGLE_AND_HORIZONTAL_DOUBLE:
+'╪': // U+256A BOX DRAWINGS VERTICAL SINGLE AND HORIZONTAL DOUBLE
 '...**....\n'+
 '...**....\n'+
 '...**....\n'+
@@ -3688,8 +3471,7 @@ BOX_DRAWINGS_VERTICAL_SINGLE_AND_HORIZONTAL_DOUBLE:
 '...**....\n'+
 '...**....\n',
 
-// U+2518 BOX DRAWINGS LIGHT UP AND LEFT (CP437-217)
-BOX_DRAWINGS_LIGHT_UP_AND_LEFT:
+'┘': // U+2518 BOX DRAWINGS LIGHT UP AND LEFT
 '...**....\n'+
 '...**....\n'+
 '...**....\n'+
@@ -3705,8 +3487,7 @@ BOX_DRAWINGS_LIGHT_UP_AND_LEFT:
 '.........\n'+
 '.........\n',
 
-// U+250C BOX DRAWINGS LIGHT DOWN AND RIGHT (CP437-218)
-BOX_DRAWINGS_LIGHT_DOWN_AND_RIGHT:
+'┌': // U+250C BOX DRAWINGS LIGHT DOWN AND RIGHT
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -3722,8 +3503,7 @@ BOX_DRAWINGS_LIGHT_DOWN_AND_RIGHT:
 '...**....\n'+
 '...**....\n',
 
-// U+2588 FULL BLOCK (CP437-219)
-FULL_BLOCK:
+'█': // U+2588 FULL BLOCK
 '*********\n'+
 '*********\n'+
 '*********\n'+
@@ -3739,8 +3519,7 @@ FULL_BLOCK:
 '*********\n'+
 '*********\n',
 
-// U+2584 LOWER HALF BLOCK (CP437-220)
-LOWER_HALF_BLOCK:
+'▄': // U+2584 LOWER HALF BLOCK
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -3756,8 +3535,7 @@ LOWER_HALF_BLOCK:
 '*********\n'+
 '*********\n',
 
-// U+258C LEFT HALF BLOCK (CP437-221)
-LEFT_HALF_BLOCK:
+'▌': // U+258C LEFT HALF BLOCK
 '****.....\n'+
 '****.....\n'+
 '****.....\n'+
@@ -3773,8 +3551,7 @@ LEFT_HALF_BLOCK:
 '****.....\n'+
 '****.....\n',
 
-// U+2590 RIGHT HALF BLOCK (CP437-222)
-RIGHT_HALF_BLOCK:
+'▐': // U+2590 RIGHT HALF BLOCK
 '....*****\n'+
 '....*****\n'+
 '....*****\n'+
@@ -3790,8 +3567,7 @@ RIGHT_HALF_BLOCK:
 '....*****\n'+
 '....*****\n',
 
-// U+2580 UPPER HALF BLOCK (CP437-223)
-UPPER_HALF_BLOCK:
+'▀': // U+2580 UPPER HALF BLOCK
 '*********\n'+
 '*********\n'+
 '*********\n'+
@@ -3807,8 +3583,7 @@ UPPER_HALF_BLOCK:
 '.........\n'+
 '.........\n',
 
-// U+03B1 GREEK SMALL LETTER ALPHA (CP437-224)
-GREEK_SMALL_LETTER_ALPHA:
+'α': // U+03B1 GREEK SMALL LETTER ALPHA
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -3824,8 +3599,7 @@ GREEK_SMALL_LETTER_ALPHA:
 '.........\n'+
 '.........\n',
 
-// U+00DF LATIN SMALL LETTER SHARP S (CP437-225)
-LATIN_SMALL_LETTER_SHARP_S:
+'ß': // U+00DF LATIN SMALL LETTER SHARP S
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -3841,8 +3615,7 @@ LATIN_SMALL_LETTER_SHARP_S:
 '.*.......\n'+
 '.........\n',
 
-// U+0393 GREEK CAPITAL LETTER GAMMA (CP437-226)
-GREEK_CAPITAL_LETTER_GAMMA:
+'Γ': // U+0393 GREEK CAPITAL LETTER GAMMA
 '.........\n'+
 '.........\n'+
 '*******..\n'+
@@ -3858,8 +3631,7 @@ GREEK_CAPITAL_LETTER_GAMMA:
 '.........\n'+
 '.........\n',
 
-// U+03C0 GREEK SMALL LETTER PI (CP437-227)
-GREEK_SMALL_LETTER_PI:
+'π': // U+03C0 GREEK SMALL LETTER PI
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -3875,8 +3647,7 @@ GREEK_SMALL_LETTER_PI:
 '.........\n'+
 '.........\n',
 
-// U+03A3 GREEK CAPITAL LETTER SIGMA (CP437-228)
-GREEK_CAPITAL_LETTER_SIGMA:
+'Σ': // U+03A3 GREEK CAPITAL LETTER SIGMA
 '.........\n'+
 '.........\n'+
 '*******..\n'+
@@ -3892,8 +3663,7 @@ GREEK_CAPITAL_LETTER_SIGMA:
 '.........\n'+
 '.........\n',
 
-// U+03C3 GREEK SMALL LETTER SIGMA (CP437-229)
-GREEK_SMALL_LETTER_SIGMA:
+'σ': // U+03C3 GREEK SMALL LETTER SIGMA
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -3909,8 +3679,7 @@ GREEK_SMALL_LETTER_SIGMA:
 '.........\n'+
 '.........\n',
 
-// U+00B5 MICRO SIGN (CP437-230)
-MICRO_SIGN:
+'µ': // U+00B5 MICRO SIGN
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -3926,8 +3695,7 @@ MICRO_SIGN:
 '.........\n'+
 '.........\n',
 
-// U+03C4 GREEK SMALL LETTER TAU (CP437-231)
-GREEK_SMALL_LETTER_TAU:
+'τ': // U+03C4 GREEK SMALL LETTER TAU
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -3943,8 +3711,7 @@ GREEK_SMALL_LETTER_TAU:
 '.........\n'+
 '.........\n',
 
-// U+03A6 GREEK CAPITAL LETTER PHI (CP437-232)
-GREEK_CAPITAL_LETTER_PHI:
+'Φ': // U+03A6 GREEK CAPITAL LETTER PHI
 '.........\n'+
 '.........\n'+
 '.******..\n'+
@@ -3960,8 +3727,7 @@ GREEK_CAPITAL_LETTER_PHI:
 '.........\n'+
 '.........\n',
 
-// U+0398 GREEK CAPITAL LETTER THETA (CP437-233)
-GREEK_CAPITAL_LETTER_THETA:
+'Θ': // U+0398 GREEK CAPITAL LETTER THETA
 '.........\n'+
 '.........\n'+
 '..***....\n'+
@@ -3977,8 +3743,7 @@ GREEK_CAPITAL_LETTER_THETA:
 '.........\n'+
 '.........\n',
 
-// U+03A9 GREEK CAPITAL LETTER OMEGA (CP437-234)
-GREEK_CAPITAL_LETTER_OMEGA:
+'Ω': // U+03A9 GREEK CAPITAL LETTER OMEGA
 '.........\n'+
 '.........\n'+
 '..***....\n'+
@@ -3994,8 +3759,7 @@ GREEK_CAPITAL_LETTER_OMEGA:
 '.........\n'+
 '.........\n',
 
-// U+03B4 GREEK SMALL LETTER DELTA (CP437-235)
-GREEK_SMALL_LETTER_DELTA:
+'δ': // U+03B4 GREEK SMALL LETTER DELTA
 '.........\n'+
 '.........\n'+
 '...****..\n'+
@@ -4011,8 +3775,7 @@ GREEK_SMALL_LETTER_DELTA:
 '.........\n'+
 '.........\n',
 
-// U+221E INFINITY (CP437-236)
-INFINITY:
+'∞': // U+221E INFINITY
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -4028,8 +3791,7 @@ INFINITY:
 '.........\n'+
 '.........\n',
 
-// U+03C6 GREEK SMALL LETTER PHI (CP437-237)
-GREEK_SMALL_LETTER_PHI:
+'φ': // U+03C6 GREEK SMALL LETTER PHI
 '.........\n'+
 '.........\n'+
 '......**.\n'+
@@ -4045,8 +3807,7 @@ GREEK_SMALL_LETTER_PHI:
 '.........\n'+
 '.........\n',
 
-// U+03B5 GREEK SMALL LETTER EPSILON (CP437-238)
-GREEK_SMALL_LETTER_EPSILON:
+'ε': // U+03B5 GREEK SMALL LETTER EPSILON
 '.........\n'+
 '.........\n'+
 '...***...\n'+
@@ -4062,8 +3823,7 @@ GREEK_SMALL_LETTER_EPSILON:
 '.........\n'+
 '.........\n',
 
-// U+2229 INTERSECTION (CP437-239)
-INTERSECTION:
+'∩': // U+2229 INTERSECTION
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -4079,8 +3839,7 @@ INTERSECTION:
 '.........\n'+
 '.........\n',
 
-// U+2261 IDENTICAL TO (CP437-240)
-IDENTICAL_TO:
+'≡': // U+2261 IDENTICAL TO
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -4096,8 +3855,7 @@ IDENTICAL_TO:
 '.........\n'+
 '.........\n',
 
-// U+00B1 PLUS-MINUS SIGN (CP437-241)
-PLUS_MINUS_SIGN:
+'±': // U+00B1 PLUS-MINUS SIGN
 '.........\n'+
 '.........\n'+
 '...**....\n'+
@@ -4113,8 +3871,7 @@ PLUS_MINUS_SIGN:
 '.........\n'+
 '.........\n',
 
-// U+2265 GREATER-THAN OR EQUAL TO (CP437-242)
-GREATER_THAN_OR_EQUAL_TO:
+'≥': // U+2265 GREATER-THAN OR EQUAL TO
 '.........\n'+
 '.........\n'+
 '..**.....\n'+
@@ -4130,8 +3887,7 @@ GREATER_THAN_OR_EQUAL_TO:
 '.........\n'+
 '.........\n',
 
-// U+2264 LESS-THAN OR EQUAL TO (CP437-243)
-LESS_THAN_OR_EQUAL_TO:
+'≤': // U+2264 LESS-THAN OR EQUAL TO
 '.........\n'+
 '.........\n'+
 '....**...\n'+
@@ -4147,8 +3903,7 @@ LESS_THAN_OR_EQUAL_TO:
 '.........\n'+
 '.........\n',
 
-// U+2320 TOP HALF INTEGRAL (CP437-244)
-TOP_HALF_INTEGRAL:
+'⌠': // U+2320 TOP HALF INTEGRAL
 '.........\n'+
 '.........\n'+
 '....***..\n'+
@@ -4164,8 +3919,7 @@ TOP_HALF_INTEGRAL:
 '...**....\n'+
 '...**....\n',
 
-// U+2321 BOTTOM HALF INTEGRAL (CP437-245)
-BOTTOM_HALF_INTEGRAL:
+'⌡': // U+2321 BOTTOM HALF INTEGRAL
 '...**....\n'+
 '...**....\n'+
 '...**....\n'+
@@ -4181,8 +3935,7 @@ BOTTOM_HALF_INTEGRAL:
 '.........\n'+
 '.........\n',
 
-// U+00F7 DIVISION SIGN (CP437-246)
-DIVISION_SIGN:
+'÷': // U+00F7 DIVISION SIGN
 '.........\n'+
 '.........\n'+
 '...**....\n'+
@@ -4198,8 +3951,7 @@ DIVISION_SIGN:
 '.........\n'+
 '.........\n',
 
-// U+2248 ALMOST EQUAL TO (CP437-247)
-ALMOST_EQUAL_TO:
+'≈': // U+2248 ALMOST EQUAL TO
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -4215,8 +3967,7 @@ ALMOST_EQUAL_TO:
 '.........\n'+
 '.........\n',
 
-// U+00B0 DEGREE SIGN (CP437-248)
-DEGREE_SIGN:
+'°': // U+00B0 DEGREE SIGN
 '.........\n'+
 '..***....\n'+
 '.**.**...\n'+
@@ -4232,8 +3983,7 @@ DEGREE_SIGN:
 '.........\n'+
 '.........\n',
 
-// U+2219 BULLET OPERATOR (CP437-249)
-BULLET_OPERATOR:
+'∙': // U+2219 BULLET OPERATOR
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -4249,8 +3999,7 @@ BULLET_OPERATOR:
 '.........\n'+
 '.........\n',
 
-// U+00B7 MIDDLE DOT (CP437-250)
-MIDDLE_DOT:
+'·': // U+00B7 MIDDLE DOT
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -4266,8 +4015,7 @@ MIDDLE_DOT:
 '.........\n'+
 '.........\n',
 
-// U+221A SQUARE ROOT (CP437-251)
-SQUARE_ROOT:
+'√': // U+221A SQUARE ROOT
 '.........\n'+
 '....****.\n'+
 '....**...\n'+
@@ -4283,8 +4031,7 @@ SQUARE_ROOT:
 '.........\n'+
 '.........\n',
 
-// U+207F SUPERSCRIPT LATIN SMALL LETTER N (CP437-252)
-SUPERSCRIPT_LATIN_SMALL_LETTER_N:
+'ⁿ': // U+207F SUPERSCRIPT LATIN SMALL LETTER N
 '.........\n'+
 '**.**....\n'+
 '.**.**...\n'+
@@ -4300,8 +4047,7 @@ SUPERSCRIPT_LATIN_SMALL_LETTER_N:
 '.........\n'+
 '.........\n',
 
-// U+00B2 SUPERSCRIPT TWO (CP437-253)
-SUPERSCRIPT_TWO:
+'²': // U+00B2 SUPERSCRIPT TWO
 '.........\n'+
 '.***.....\n'+
 '**.**....\n'+
@@ -4317,8 +4063,7 @@ SUPERSCRIPT_TWO:
 '.........\n'+
 '.........\n',
 
-// U+25A0 BLACK SQUARE (CP437-254)
-BLACK_SQUARE:
+'■': // U+25A0 BLACK SQUARE
 '.........\n'+
 '.........\n'+
 '.........\n'+
@@ -4334,8 +4079,7 @@ BLACK_SQUARE:
 '.........\n'+
 '.........\n',
 
-// U+00A0 NO-BREAK SPACE (CP437-255)
-NO_BREAK_SPACE:
+' ': // U+00A0 NO-BREAK SPACE
 '.........\n'+
 '.........\n'+
 '.........\n'+

@@ -16,10 +16,11 @@ lines.forEach(function(line) {
   var unicode = fields[1];
   var name = fields[2];
   if (cp437!==cp437)return;
-  var idname = name.replace(/[^A-Z]/g, '_');
+  //var idname = name.replace(/[^A-Z]/g, '_');
   //console.log(cp437,unicode,idname);
-  charnames[cp437] = idname; //+ '_U' + unicode;
-  cp437toU[cp437]='U+'+unicode+' '+name;
+  charnames[cp437] = 'U+'+unicode+' '+name;//idname; //+ '_U' + unicode;
+  //cp437toU[cp437]='U+'+unicode+' '+name;
+  cp437toU[cp437]=parseInt(unicode,16);
 });
 //console.log(charnames);
 charnames[0]='NULL'; // http://www.unicode.org/charts/PDF/U0000.pdf doesn't define an official name, says <control>, but suggests this alias
@@ -39,8 +40,13 @@ require('get-pixels')('ega9x14.png', function(err, pixels) {
       var cp = row*32+col;
       //var s='-- '+cp+charnames[cp]+' --\n';
       var s = '';
-      s+='// '+cp437toU[cp]+' (CP437-'+cp+')\n';
-      s+=charnames[cp] + ':\n';
+      //s+='// '+cp437toU[cp]+' (CP437-'+cp+')\n';
+      //s+=charnames[cp] + ':\n';
+      if(cp===39)s="'\\''";
+      else if(cp===0)s="'\\u0000'";
+      else if(cp==92)s="'\\\\'";
+      else s+="'"+String.fromCharCode(cp437toU[cp])+"'";
+      s+=': // '+charnames[cp]+'\n';
 
       for (var j=0;j<14;++j) {
         s+="'";
