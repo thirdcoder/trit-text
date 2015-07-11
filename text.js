@@ -20,7 +20,7 @@ var _chars =  [
 /* 0010i = 8 */  '8',
 /* 00100 = 9 */  '9',
 /* 00101 = 10 */ '0',
-/* 0011i = 11 */ '�', // escape/reserved code
+/* 0011i = 11 */ '⌂', // escape/reserved code, U+2302 house
 /* 00110 = 12 */ '\n', // newline, \n, linefeed
 /* 00111 = 13 */ ' ', // space
 

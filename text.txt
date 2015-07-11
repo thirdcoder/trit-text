@@ -15,7 +15,7 @@ control/digits
 0010i = 8       8
 00100 = 9       9
 00101 = 10      0
-0011i = 11      ESC escape/reserved code
+0011i = 11      ⌂ ESC escape/reserved code / house
 00110 = 12      NL  newline, \n, linefeed
 00111 = 13      SP  space
 
