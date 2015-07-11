@@ -1,7 +1,7 @@
 'use strict';
 
 var OPT = require('./optkeys');
-var fromUnicode = require('./').fromUnicode;
+var fromUnicode = require('./utext').fromUnicode;
 
 // option-keys to press for shortcuts
 var _sc = {};
