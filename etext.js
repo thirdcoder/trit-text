@@ -70,7 +70,7 @@ function fromEvent(ev) {
   var tt = fromUnicode(c);
   if (tt == null) return null;
 
-  if (ev.metaKey || ev.ctrlKey) tt = -tt; // TODO: other key? option?
+  if (ev.altKey) tt = -tt; // alt/option key inverts
 
   return tt;
 }
