@@ -28,7 +28,7 @@ left punctuation                                        right punctuation
 01i00 = 18  • U+2022 bullet                             10i00 = 72  ◘ U+25D8 inverted bullet
 01i01 = 19  ○ U+25CB circle                             10i01 = 73  ◙ U+25D9 inverted circle
 01i1i = 20  ♂ U+2642 male                               10i1i = 74  ♀ U+2640 female
-01i10 = 21  ☼ U+263C solar                              10i10 = 75  ☂ U+2602 umbrella
+01i10 = 21  ☼ U+263C solar                              10i10 = 75  ▒ U+2592 medium shade
 01i11 = 22  ← U+2190 left arrow                         10i11 = 76  → U+2192 right arrow
 010ii = 23  ↑ U+2191 up arrow                           100ii = 77  ↓ U+2193 down arrow
 010i0 = 24  ◄ U+25C4 left triangle                      100i0 = 78  ► U+25BA right triangle
