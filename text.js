@@ -161,4 +161,5 @@ module.exports = {
   toUnicode: toUnicode,
   isInverted: isInverted,
   fromUnicode: fromUnicode,
+  allUnicode: _chars,
 };
