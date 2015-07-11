@@ -67,6 +67,9 @@ function fromEvent(ev) {
   if (!varChars) return null;
   var c = varChars[flags];
 
+  if (flags === 2 && c === '') c = varChars[0]; // no control variant, use normal
+  if (flags === 3 && c === '') c = varChars[1]; // no shift-control variant, use shift TODO: hmm
+
   var tt = fromUnicode(c);
   if (tt == null) return null;
 
