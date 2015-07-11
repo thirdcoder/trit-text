@@ -6,26 +6,26 @@ var fromUnicode = require('./utext').fromUnicode;
 // map virtual key to Unicode corresponding to trit-text, with modifiers
 var _keymap = {
   // vkey: normal, shifted, control, shift-control
-  A: ['a', 'A', '', ''],
-  B: ['b', 'B', '', ''],
-  C: ['c', 'C', '', ''],
-  D: ['d', 'D', '', ''],
-  E: ['e', 'E', '', ''],
-  F: ['f', 'F', '', ''],
-  G: ['g', 'G', '', ''],
-  H: ['h', 'H', '', ''],
-  I: ['i', 'I', '', ''],
-  J: ['j', 'J', '', ''],
-  K: ['k', 'K', '', ''],
-  L: ['l', 'L', '', ''],
-  M: ['m', 'M', '', ''],
-  N: ['n', 'N', '', ''],
-  O: ['o', 'O', '', ''],
-  P: ['p', 'P', '', ''],
-  Q: ['q', 'Q', '', ''],
-  R: ['r', 'R', '', ''],
-  S: ['s', 'S', '', ''],
-  T: ['t', 'T', '', ''],
+  A: ['a', 'A', '☺', ''],
+  B: ['b', 'B', '☻', ''],
+  C: ['c', 'C', '♥', ''],
+  D: ['d', 'D', '♦', ''],
+  E: ['e', 'E', '•', ''],
+  F: ['f', 'F', '◘', ''],
+  G: ['g', 'G', '○', ''],
+  H: ['h', 'H', '◙', ''],
+  I: ['i', 'I', '♂', ''],
+  J: ['j', 'J', '♀', ''],
+  K: ['k', 'K', '☼', ''],
+  L: ['l', 'L', '▒', ''],
+  M: ['m', 'M', '←', ''],
+  N: ['n', 'N', '→', ''],
+  O: ['o', 'O', '↑', ''],
+  P: ['p', 'P', '↓', ''],
+  Q: ['q', 'Q', '◄', ''],
+  R: ['r', 'R', '►', ''],
+  S: ['s', 'S', '▲', ''],
+  T: ['t', 'T', '▼', ''],
   U: ['u', 'U', '', ''],
   V: ['v', 'V', '', ''],
   W: ['w', 'W', '', ''],
@@ -57,22 +57,6 @@ var _keymap = {
 
   '<enter>': ['\n', '\n', '', ''],
 };
-
-// option-keys to press for shortcuts
-var _sc = {};
-if(0){//TODO
-_sc[OPT.A] = '☺'; _sc[OPT.B] = '☻';
-_sc[OPT.C] = '♥'; _sc[OPT.D] = '♦';
-/*_sc[OPT.E] = '♣'*/; _sc[OPT.F] = '♠';
-_sc[OPT.G] = '•'; _sc[OPT.H] = '◘';
-/*_sc[OPT.I] = '○'*/; _sc[OPT.J] = '◙';
-_sc[OPT.K] = '♂'; _sc[OPT.L] = '♀';
-_sc[OPT.M] = '☼'; /*_sc[OPT.N] = '▒';*/
-_sc[OPT.O] = '←'; _sc[OPT.P] = '→';
-_sc[OPT.Q] = '↑'; _sc[OPT.R] = '↓';
-_sc[OPT.S] = '◄'; _sc[OPT.T] = '►';
-/*_sc[OPT.U] = '▲';*/ _sc[OPT.V] = '▼';
-}
 
 function fromEvent(ev) {
   var vkeyChar = vkey[ev.keyCode];
