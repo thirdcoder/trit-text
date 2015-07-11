@@ -15,8 +15,8 @@ control/digits
 0010i = 8       8
 00100 = 9       9
 00101 = 10      0
-0011i = 11      ⌂ ESC escape/reserved code / house
-00110 = 12      NL  newline, \n, linefeed
+0011i = 11      ESC escape/reserved code, visual representation: ⌂ U+2302 house
+00110 = 12      NL  newline, \n, linefeed, visual representation: ♪ U+266a eighth note
 00111 = 13      SP  space
 
     (01xxx=left, pairs with 10xxx=right, and control(1i)=01, shift-control(11)=10)
