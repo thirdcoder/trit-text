@@ -32,7 +32,7 @@ left punctuation                                        right punctuation
 01i11 = 22  ← U+2190 left arrow                         10i11 = 76  → U+2192 right arrow
 010ii = 23  ↑ U+2191 up arrow                           100ii = 77  ↓ U+2193 down arrow
 010i0 = 24  ◄ U+25C4 left triangle                      100i0 = 78  ► U+25BA right triangle
-010i1 = 25  ▲ U+25B2 up triangle                        100i1 = 79  ▼ U+25BC down triangle
+010i1 = 25  ± U+00B1 plus-minus sign                    100i1 = 79  ∓ U+2213 minus-or-plus sign
 0100i = 26  (                                           1000i = 80  )                                              
 01000 = 27  [                                           10000 = 81  ]
 01001 = 28  <                                           10001 = 82  >
