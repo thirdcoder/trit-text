@@ -23,7 +23,7 @@ function fromEvent(ev) {
     return 12; // trit-text newline
   }
 
-  var c = ev.charCode;
+  var c = String.fromCharCode(ev.charCode);
 
   if (_sc[c] !== undefined) {
     c = _sc[c];
