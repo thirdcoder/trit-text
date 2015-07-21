@@ -12,6 +12,8 @@
     "base3",
     "trits",
     "text",
+    "ascii",
+    "cp437",
     "unicode"
   ],
   "scripts": {

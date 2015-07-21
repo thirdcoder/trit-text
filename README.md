@@ -76,7 +76,7 @@ Codepoint reference:
     01110 = 39  =                                           10110 = 93  ≈ U+2248 approximately equal
     01111 = 40  ^                                           10111 = 94  ~
                                                                 
-     (1cxxxx = letters, where c=case, i=lower, 1=uppe - toggle 2nd mst i=lowercase,1=uppercase (includes _ and ‾, allow in program identifiers)
+     (1cxxxx = letters, where c=case, i=lower, 1=upper - toggle 2nd mst i=lowercase,1=uppercase (includes _ and ‾, allow in program identifiers)
     lowercase letters                                       uppercase letters
     1iiii = 41 ‾ U+203E overline (standalone)               11iii = 95   _ underline
     1iii0 = 42 a                                            11ii0 = 96   A
@@ -107,3 +107,5 @@ Codepoint reference:
     1i111 = 67 z                                            11111 = 121  Z
 
 Codepoints above are shown in decimal and [balanced-ternary](https://github.com/thirdcoder/balanced-ternary).
+Some characters above are inspired by the [CP437](https://en.wikipedia.org/wiki/Code_page_437) character set,
+and the [IBM PC EGA 9x14 bitmap font](http://nerdlypleasures.blogspot.dk/2015/04/ibm-character-fonts.html).
