@@ -1,7 +1,7 @@
 {
   "name": "trit-text",
   "description": "a 5-trit text coding",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "text.js",
   "repository": {
     "type": "git",
