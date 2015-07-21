@@ -2,6 +2,31 @@
 
 A 5-trit text format, analogous to 7-bit ASCII
 
+Usage:
+
+    var toUnicode = require('trit-text').toUnicode;
+    var isInverted = require('trit-text').isInverted;
+    var fromUnicode = require('trit-text').fromUnicode;
+    var fromEvent = require('trit-text').fromEvent;
+    var allUnicode = require('trit-text').allUnicode;
+    var toTritmap9x14 = require('trit-text').toTritmap9x14;
+
+The trit-text codepoints range from -121 to +121, comparable to ASCII 0 to 127.
+
+`to/fromUnicode` converts between Unicode and trit-text, and isInverted returns whether the
+character is "inverted"/emphasized (that is, -121 to -1; normal characters are 1 to 121):
+
+    toUnicode(42);      // 'a'
+    fromUnicode('a');   // 42
+    isInverted(42);     // false
+    isInverted(-42);    // true
+
+`fromEvent(ev)` takes a DOM keydown event and returns a representative trit-text character codepoint.
+
+`toTritmap9x14(cp)` returns a 9x14 tritmap (analogous to bitmap) to graphically represent the given character.
+
+Codepoint reference:
+
     +1 to +121 normal text (ex: black on white, green on black)
     -1 to -121 inverted/emphasized (ex: reverse video white on black, red on black)
 
@@ -80,3 +105,5 @@ A 5-trit text format, analogous to 7-bit ASCII
     1i11i = 65 x                                            1111i = 119  X
     1i110 = 66 y                                            11110 = 120  Y
     1i111 = 67 z                                            11111 = 121  Z
+
+Codepoints above are shown in decimal and [balanced-ternary](https://github.com/thirdcoder/balanced-ternary).

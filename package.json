@@ -5,7 +5,7 @@
   "main": "text.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:/trit-text.git"
+    "url": "git@github.com:thirdcoder/trit-text.git"
   },
   "keywords": [
     "ternary",
