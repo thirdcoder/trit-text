@@ -2,6 +2,9 @@
 
 A 5-trit text format, analogous to 7-bit ASCII
 
+[![Build Status](https://travis-ci.org/thirdcoder/trit-text.svg?branch=master)](https://travis-ci.org/thirdcoder/trit-text)
+[![npm version](https://badge.fury.io/js/trit-text.svg)](https://www.npmjs.com/package/trit-text)
+
 Usage:
 
     var toUnicode = require('trit-text').toUnicode;
